@@ -1,7 +1,7 @@
 !
-! Checksum: McYHe/tRZmG5/Sty6g+TMw
+! Checksum: Gf0RmM7NewTcl0q65l4dDg
 ! Title: Fanboy's Anti-thirdparty Fonts
-! Updated: 7 Dec 2020
+! Updated: 2021-04-07 11:12 UTC
 ! Expires: 9 days
 ! License: http://creativecommons.org/licenses/by/3.0/
 ! Homepage: http://www.fanboy.co.nz/
@@ -41,6 +41,7 @@
 ||fonts.gotraffic.net^$script
 ||fonts.gstatic.com^$third-party
 ||fonts.nymag.com^$script,third-party
+||fonts.smdg.ca^$third-party
 ||fonts.staticworld.net^$third-party
 ||fonts.timeinc.net^
 ||fonts.voxmedia.com^$third-party
@@ -58,9 +59,11 @@
 ||typefront.com^$third-party
 ||typekit.com^$third-party
 ||typekit.net^$third-party
+||typesquare.com^$font,third-party
 ||use.fonticons.com^$third-party
 ||vidible.tv/prod/fonts/$font
 ||webfonts.creativecloud.com^$third-party
+||webfonts.sakura.ne.jp^$font
 ||wp.com^*/fonts/$third-party
 !
 ! Cloudflare CDN
@@ -72,8 +75,8 @@
 !
 @@||ajax.googleapis.com/ajax/libs/webfont/$script,domain=help.typepad.com|regexpal.com
 @@||fast.fonts.net/jsapi/$script
-@@||fonts.googleapis.com/css?$domain=google.com|translate.google.com.hk|translate.google.co.kr|translate.google.cn|translate.google.co.jp|translate.google.it|translate.google.de|translate.google.es|translate.google.pl|translate.google.co.id
-@@||fonts.gstatic.com^$domain=floatplane.com|google.com|youtube.com|bloble.io|regexpal.com|translate.google.com.hk|translate.google.co.kr|translate.google.cn|translate.google.co.jp|translate.google.it|translate.google.de|translate.google.es|translate.google.pl|translate.google.co.id
+@@||fonts.googleapis.com/css?$domain=fastcup.net|onlyfans.com|brave.com|google.com|translate.google.fr|translate.google.com.hk|translate.google.co.kr|translate.google.cn|translate.google.co.jp|translate.google.it|translate.google.de|translate.google.es|translate.google.pl|translate.google.co.id
+@@||fonts.gstatic.com^$domain=floatplane.com|brave.com|google.com|youtube.com|bloble.io|regexpal.com|translate.google.com.hk|translate.google.co.kr|translate.google.cn|translate.google.fr|translate.google.it|translate.google.co.jp|translate.google.it|translate.google.de|translate.google.es|translate.google.pl|translate.google.co.id
 @@||fonts.typekit.net^$domain=mpora.com
 @@||googleusercontent.com/static/fonts/$domain=tudocelular.com
 @@||maxcdn.bootstrapcdn.com/font-awesome/*/css/$domain=climatemirror.org

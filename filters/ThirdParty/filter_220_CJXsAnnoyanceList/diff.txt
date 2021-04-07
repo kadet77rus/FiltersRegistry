@@ -8,8 +8,10 @@
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.special_conf_skin .wrap1:style(background:none !important;)
 ! Rule "1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###plat_recom_carousel[style$="380px;"]:style(height:80px !important;)" converted to: "1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com#$##plat_recom_carousel[style$="380px;"] { height:80px !important; }"
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###plat_recom_carousel[style$="380px;"]:style(height:80px !important;)
-! Rule "bde4.cc##+js(acis,__encode)" converted to: "bde4.cc#%#//scriptlet('ubo-acis,__encode.js')"
-bde4.cc##+js(acis,__encode)
+! Rule "bde4.cc##+js(acis,dataLayer)" converted to: "bde4.cc#%#//scriptlet('ubo-acis,dataLayer.js')"
+bde4.cc##+js(acis,dataLayer)
+! Rule "bde4.cc##+js(aopr,alert)" converted to: "bde4.cc#%#//scriptlet('ubo-aopr,alert.js')"
+bde4.cc##+js(aopr,alert)
 ! Rule "bingfeng.tw##+js(nostif,newtag)" converted to: "bingfeng.tw#%#//scriptlet('ubo-nostif,newtag.js')"
 bingfeng.tw##+js(nostif,newtag)
 ! Rule "chinaz.com###imgbd:style(background:none !important;)" converted to: "chinaz.com#$##imgbd { background:none !important; }"
@@ -24,6 +26,8 @@ cocomanhua.com##+js(aopr,__cad.cpm_popunder)
 cocomanhua.com##+js(aopr,__ad)
 ! Rule "dlkoo.com##+js(acis,setTimeout,testad)" converted to: "dlkoo.com#%#//scriptlet('ubo-acis,setTimeout,testad.js')"
 dlkoo.com##+js(acis,setTimeout,testad)
+! Rule "fpbsnc.com,lsntzzy3.com##+js(set,ps,noopFunc)" converted to: "fpbsnc.com,lsntzzy3.com#%#//scriptlet('ubo-set,ps,noopFunc.js')"
+fpbsnc.com,lsntzzy3.com##+js(set,ps,noopFunc)
 ! Rule "ip.cn##img[src*="/img/"]:style(height:101px !important;)" converted to: "ip.cn#$#img[src*="/img/"] { height:101px !important; }"
 ip.cn##img[src*="/img/"]:style(height:101px !important;)
 ! Rule "juxia.com##.mian_body:style(background-image:none !important;)" converted to: "juxia.com#$#.mian_body { background-image:none !important; }"
@@ -54,6 +58,8 @@ tingfm.com##+js(aopr,localStorage.wndt_adblocked_user)
 tingfm.com##+js(aopr,google_ads)
 ! Rule "tingfm.com##iframe:style(background:none !important;)" converted to: "tingfm.com#$#iframe { background:none !important; }"
 tingfm.com##iframe:style(background:none !important;)
+! Rule "zhenbuka.com##+js(acis, setTimeout)" converted to: "zhenbuka.com#%#//scriptlet('ubo-acis.js', 'setTimeout')"
+zhenbuka.com##+js(acis, setTimeout)
 ! Rule "ciymao.com,zhaishuyuan.com##+js(aopr,alert)" converted to: "ciymao.com,zhaishuyuan.com#%#//scriptlet('ubo-aopr,alert.js')"
 ciymao.com,zhaishuyuan.com##+js(aopr,alert)
 ! Rule "youku.com##+js(nano-stb, , ,0)" converted to: "youku.com#%#//scriptlet('ubo-nano-stb.js', '', ',0')"
@@ -84,8 +90,10 @@ qq.com##+js(json-prune, ad, vinfo)
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com#$#.special_conf_skin .wrap1 { background:none !important; }
 ! 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com#$##plat_recom_carousel[style$="380px;"] { height:80px !important; } is excluded by "#$#" in exclusions-low.txt
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com#$##plat_recom_carousel[style$="380px;"] { height:80px !important; }
-! bde4.cc#%#//scriptlet('ubo-acis,__encode.js') is excluded by "#%#//scriptlet" in exclusions-low.txt
-bde4.cc#%#//scriptlet('ubo-acis,__encode.js')
+! bde4.cc#%#//scriptlet('ubo-acis,dataLayer.js') is excluded by "#%#//scriptlet" in exclusions-low.txt
+bde4.cc#%#//scriptlet('ubo-acis,dataLayer.js')
+! bde4.cc#%#//scriptlet('ubo-aopr,alert.js') is excluded by "#%#//scriptlet" in exclusions-low.txt
+bde4.cc#%#//scriptlet('ubo-aopr,alert.js')
 ! bingfeng.tw#%#//scriptlet('ubo-nostif,newtag.js') is excluded by "#%#//scriptlet" in exclusions-low.txt
 bingfeng.tw#%#//scriptlet('ubo-nostif,newtag.js')
 ! chinaz.com#$##imgbd { background:none !important; } is excluded by "#$#" in exclusions-low.txt
@@ -100,6 +108,8 @@ cocomanhua.com#%#//scriptlet('ubo-aopr,__cad.cpm_popunder.js')
 cocomanhua.com#%#//scriptlet('ubo-aopr,__ad.js')
 ! dlkoo.com#%#//scriptlet('ubo-acis,setTimeout,testad.js') is excluded by "#%#//scriptlet" in exclusions-low.txt
 dlkoo.com#%#//scriptlet('ubo-acis,setTimeout,testad.js')
+! fpbsnc.com,lsntzzy3.com#%#//scriptlet('ubo-set,ps,noopFunc.js') is excluded by "#%#//scriptlet" in exclusions-low.txt
+fpbsnc.com,lsntzzy3.com#%#//scriptlet('ubo-set,ps,noopFunc.js')
 ! ip.cn#$#img[src*="/img/"] { height:101px !important; } is excluded by "#$#" in exclusions-low.txt
 ip.cn#$#img[src*="/img/"] { height:101px !important; }
 ! juxia.com#$#.mian_body { background-image:none !important; } is excluded by "#$#" in exclusions-low.txt
@@ -130,6 +140,8 @@ tingfm.com#%#//scriptlet('ubo-aopr,localStorage.wndt_adblocked_user.js')
 tingfm.com#%#//scriptlet('ubo-aopr,google_ads.js')
 ! tingfm.com#$#iframe { background:none !important; } is excluded by "#$#" in exclusions-low.txt
 tingfm.com#$#iframe { background:none !important; }
+! zhenbuka.com#%#//scriptlet('ubo-acis.js', 'setTimeout') is excluded by "#%#//scriptlet" in exclusions-low.txt
+zhenbuka.com#%#//scriptlet('ubo-acis.js', 'setTimeout')
 ! ciymao.com,zhaishuyuan.com#%#//scriptlet('ubo-aopr,alert.js') is excluded by "#%#//scriptlet" in exclusions-low.txt
 ciymao.com,zhaishuyuan.com#%#//scriptlet('ubo-aopr,alert.js')
 ! youku.com#%#//scriptlet('ubo-nano-stb.js', '', ',0') is excluded by "#%#//scriptlet" in exclusions-low.txt

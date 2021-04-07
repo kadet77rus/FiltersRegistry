@@ -6,10 +6,8 @@
 /ad/logo/*
 ! /ad24/* is excluded by "/^/ad24/\*$/" in exclusions.txt
 /ad24/*
-! /adframe.$~script,~xmlhttprequest is excluded by "/adframe." in exclusions.txt
-/adframe.$~script,~xmlhttprequest
-! /adguard.$~document,domain=~adguard-com.cdn.ampproject.org|~adguard.com|~adguard.mobi|~adguard.oneskyapp.com|~greinr.com|~marketplace.visualstudio.com is excluded by "/adguard." in exclusions.txt
-/adguard.$~document,domain=~adguard-com.cdn.ampproject.org|~adguard.com|~adguard.mobi|~adguard.oneskyapp.com|~greinr.com|~marketplace.visualstudio.com
+! /adframe.$~script,~xmlhttprequest,domain=~adframe.com is excluded by "/adframe." in exclusions.txt
+/adframe.$~script,~xmlhttprequest,domain=~adframe.com
 ! /adwolf. is excluded by "/adwolf." in exclusions.txt
 /adwolf.
 ! /google_ad_ is excluded by "/google_ad_" in exclusions.txt
@@ -18,20 +16,22 @@
 /pb-ads/*
 ! /lr.php?zoneid=$popup is excluded by ".php?zoneid=" in exclusions.txt
 /lr.php?zoneid=$popup
-! ://ads.$popup,domain=~ads.instacart.com is excluded by "://ads.$popup" in exclusions.txt
-://ads.$popup,domain=~ads.instacart.com
-! ##.adsbox is excluded by "/^##\.adsbox$/" in exclusions.txt
-##.adsbox
+! ://ads.$popup is excluded by "://ads.$popup" in exclusions.txt
+://ads.$popup
 ! ##.myTestAd is excluded by "/^##\.myTestAd$/" in exclusions.txt
 ##.myTestAd
 ! ##a[href^="http://deloplen.com/afu.php?zoneid="] is excluded by ".php?zoneid=" in exclusions.txt
 ##a[href^="http://deloplen.com/afu.php?zoneid="]
+! ||exoclick.com^$third-party is excluded by "||exoclick.com^$third-party" in exclusions.txt
+||exoclick.com^$third-party
 ! ||am15.net^$third-party is excluded by "||am15.net^$third-party" in exclusions.txt
 ||am15.net^$third-party
 ! ||bubblesmedia.ru^$third-party is excluded by "||bubblesmedia.ru^$third-party" in exclusions.txt
 ||bubblesmedia.ru^$third-party
 ! ||lockerdome.com^$third-party is excluded by "||lockerdome.com^$third-party" in exclusions.txt
 ||lockerdome.com^$third-party
+! ||35.232.188.118^ is excluded by "||35." in exclusions.txt
+||35.232.188.118^
 ! ||130.211.$popup,third-party,domain=~in-addr.arpa is excluded by "||130.211." in exclusions.txt
 ||130.211.$popup,third-party,domain=~in-addr.arpa
 ! ||216.21.13.$popup,domain=~in-addr.arpa is excluded by "||216.21." in exclusions.txt
@@ -42,24 +42,14 @@
 ||maxedtube.com/video_play?*&utm_campaign=$popup,third-party
 ! @@||spiegel.de^$genericblock,generichide is excluded by "@@||spiegel.de^$genericblock,generichide" in exclusions.txt
 @@||spiegel.de^$genericblock,generichide
-! ||cloudfront.net^$popup,domain=thepiratebay.org is excluded by "||cloudfront.net^$popup" in exclusions.txt
-||cloudfront.net^$popup,domain=thepiratebay.org
 ! ||flashx.tv^$popup,~third-party,domain=flashx.tv is excluded by "$popup,~third-party" in exclusions.txt
 ||flashx.tv^$popup,~third-party,domain=flashx.tv
-! ||imgrock.net^$popup,~third-party is excluded by "$popup,~third-party" in exclusions.txt
-||imgrock.net^$popup,~third-party
-! ||putlockers.fm^$popup,~third-party is excluded by "$popup,~third-party" in exclusions.txt
-||putlockers.fm^$popup,~third-party
 ! ||uploadrocket.net^$popup,~third-party is excluded by "$popup,~third-party" in exclusions.txt
 ||uploadrocket.net^$popup,~third-party
-! ||vkpass.com/goo.php?link=$popup,~third-party is excluded by "$popup,~third-party" in exclusions.txt
-||vkpass.com/goo.php?link=$popup,~third-party
-! /^https?:\/\/.*[&%+=]/$popup,domain=mixdrop.co|powvideo.net|powvldeo.cc|prox4you.xyz|putlocker.fyi|putlocker.ninja|putlocker.style|putlockers.fm|putlockers.mn|putlockers.movie|rarbg.to|rarbgaccess.org|rarbgmirror.com|rarbgmirror.org|rarbgmirrored.org|rarbgproxy.org|rarbgprx.org|rarbgunblock.org|rarbgway.org|readcomiconline.to|repelis.net|seehd.pl|sendit.cloud|sendspace.com|sendvid.com|sportp2p.com|steamplay.cc|streamplay.life|streamplay.to|thepiratebay.org|thepiratebay10.org|torlock.com|torrentdownloads.me|torrentfunk2.com|uiz.io|ukpirate.org|unblockall.org|unblocker.cc|up-load.io|upload.ac|uploadproper.com|uploadproper.net|upstream.to|uptobox.com|userscloud.com|vev.io|vidbull.tv|videobin.co|vidlox.me|vidoza.co|vidoza.net|vidtomp3.com|vidup.io|vipbox.live|vipstand.se|vshare.eu|y2mate.com|yify-movies.net|youwatch.org|youzik.com|zippyshare.com is excluded by "/^https?:\/\/.*[&%+=]/$popup,domain=" in exclusions.txt
-/^https?:\/\/.*[&%+=]/$popup,domain=mixdrop.co|powvideo.net|powvldeo.cc|prox4you.xyz|putlocker.fyi|putlocker.ninja|putlocker.style|putlockers.fm|putlockers.mn|putlockers.movie|rarbg.to|rarbgaccess.org|rarbgmirror.com|rarbgmirror.org|rarbgmirrored.org|rarbgproxy.org|rarbgprx.org|rarbgunblock.org|rarbgway.org|readcomiconline.to|repelis.net|seehd.pl|sendit.cloud|sendspace.com|sendvid.com|sportp2p.com|steamplay.cc|streamplay.life|streamplay.to|thepiratebay.org|thepiratebay10.org|torlock.com|torrentdownloads.me|torrentfunk2.com|uiz.io|ukpirate.org|unblockall.org|unblocker.cc|up-load.io|upload.ac|uploadproper.com|uploadproper.net|upstream.to|uptobox.com|userscloud.com|vev.io|vidbull.tv|videobin.co|vidlox.me|vidoza.co|vidoza.net|vidtomp3.com|vidup.io|vipbox.live|vipstand.se|vshare.eu|y2mate.com|yify-movies.net|youwatch.org|youzik.com|zippyshare.com
+! /^https?:\/\/.*[&%+=]/$popup,domain=jawcloud.co|mixdrop.co|powvideo.net|powvldeo.cc|prox4you.xyz|putlocker.fyi|putlocker.ninja|putlocker.style|putlockers.fm|putlockers.mn|putlockers.movie|rarbg.to|rarbgaccess.org|rarbgmirror.com|rarbgmirror.org|rarbgmirrored.org|rarbgproxy.org|rarbgprx.org|rarbgunblock.org|rarbgway.org|readcomiconline.to|repelis.net|seehd.pl|sendit.cloud|sendspace.com|sendvid.com|sportp2p.com|steamplay.cc|streamplay.life|streamplay.to|thepiratebay.org|thepiratebay10.org|torlock.com|torrentdownloads.me|torrentfunk2.com|uiz.io|ukpirate.org|unblockall.org|unblocker.cc|up-load.io|upload.ac|uploadproper.com|uploadproper.net|upstream.to|uptobox.com|userscloud.com|vev.io|vidbull.tv|videobin.co|vidlox.me|vidoza.co|vidoza.net|vidtomp3.com|vidup.io|vipbox.live|vipstand.se|vshare.eu|y2mate.com|yify-movies.net|youwatch.org|youzik.com|zippyshare.com is excluded by "/^https?:\/\/.*[&%+=]/$popup,domain=" in exclusions.txt
+/^https?:\/\/.*[&%+=]/$popup,domain=jawcloud.co|mixdrop.co|powvideo.net|powvldeo.cc|prox4you.xyz|putlocker.fyi|putlocker.ninja|putlocker.style|putlockers.fm|putlockers.mn|putlockers.movie|rarbg.to|rarbgaccess.org|rarbgmirror.com|rarbgmirror.org|rarbgmirrored.org|rarbgproxy.org|rarbgprx.org|rarbgunblock.org|rarbgway.org|readcomiconline.to|repelis.net|seehd.pl|sendit.cloud|sendspace.com|sendvid.com|sportp2p.com|steamplay.cc|streamplay.life|streamplay.to|thepiratebay.org|thepiratebay10.org|torlock.com|torrentdownloads.me|torrentfunk2.com|uiz.io|ukpirate.org|unblockall.org|unblocker.cc|up-load.io|upload.ac|uploadproper.com|uploadproper.net|upstream.to|uptobox.com|userscloud.com|vev.io|vidbull.tv|videobin.co|vidlox.me|vidoza.co|vidoza.net|vidtomp3.com|vidup.io|vipbox.live|vipstand.se|vshare.eu|y2mate.com|yify-movies.net|youwatch.org|youzik.com|zippyshare.com
 ! ||redtube.com^$subdocument,~third-party is excluded by "||redtube.com^$subdocument,~third-party" in exclusions.txt
 ||redtube.com^$subdocument,~third-party
-! ||hdzog.com^$~third-party,xmlhttprequest is excluded by "||hdzog.com^$~third-party,xmlhttprequest" in exclusions.txt
-||hdzog.com^$~third-party,xmlhttprequest
 ! facebook.com#?#div[style="max-width: 390px; min-width: 190px;"]:-abp-has(a[href^="/ads/"]) is excluded by "facebook.com#?#" in exclusions.txt
 facebook.com#?#div[style="max-width: 390px; min-width: 190px;"]:-abp-has(a[href^="/ads/"])
 ! facebook.com,facebookcorewwwi.onion#?#._6y8t:-abp-has(a[href="/ads/about/?entry_product=ad_preferences"]) is excluded by "facebook.com,facebookcorewwwi.onion#?#" in exclusions.txt
@@ -100,8 +90,6 @@ facebook.com,facebookcorewwwi.onion#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[
 facebook.com,facebookcorewwwi.onion#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[href*="is_sponsored"])
 ! facebook.com,facebookcorewwwi.onion#?#div[id^="hyperfeed_story_id_"]:-abp-has(input[data-next-question-id]) is excluded by "facebook.com,facebookcorewwwi.onion#?#" in exclusions.txt
 facebook.com,facebookcorewwwi.onion#?#div[id^="hyperfeed_story_id_"]:-abp-has(input[data-next-question-id])
-! webfail.com#?##aside > :-abp-properties(cursor: pointer;) is excluded by "-abp-properties" in exclusions.txt
-webfail.com#?##aside > :-abp-properties(cursor: pointer;)
 ! bing.com#?#.b_algo:-abp-has(p:-abp-properties(content: "Ad")) is excluded by "-abp-properties" in exclusions.txt
 bing.com#?#.b_algo:-abp-has(p:-abp-properties(content: "Ad"))
 ! extremetube.com,pornhub.com,pornhubthbh7ap3u.onion,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youporngay.com#?#:-abp-properties(*data:image*) is excluded by "-abp-properties" in exclusions.txt
@@ -132,5 +120,5 @@ pornhub.com,pornhubthbh7ap3u.onion,youporn.com#?#:-abp-properties(float: right; 
 @@||gelbooru.com^$popup,~third-party
 ! Rule "||slacker.com^*/getspot/?spotid=$media,rewrite=abp-resource:blank-mp3,domain=slacker.com" converted to: "||slacker.com^*/getspot/?spotid=$media,redirect=noopmp3-0.1s,domain=slacker.com"
 ||slacker.com^*/getspot/?spotid=$media,rewrite=abp-resource:blank-mp3,domain=slacker.com
-Error: "Unknown modifier: ~document" in the rule: "@@||lemon-ads.com^$~document,~third-party"
-@@||lemon-ads.com^$~document,~third-party
+! Invalid selector:
+futbin.com##a[href^="https://www.eneba.com/"][href*=?af_id="]

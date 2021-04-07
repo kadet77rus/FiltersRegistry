@@ -10,20 +10,20 @@ tv2.no##+js(json-prune, enabled, testhide)
 tvkampen.com,tvsporten.dk##+js(aopw, onload)
 ! Rule "tvkampen.com,tvsporten.dk##.custom-background:style(background-image: none !important)" converted to: "tvkampen.com,tvsporten.dk#$#.custom-background { background-image: none !important }"
 tvkampen.com,tvsporten.dk##.custom-background:style(background-image: none !important)
-! Rule "vg.no##+js(acis, Math.floor, g00)" converted to: "vg.no#%#//scriptlet('ubo-acis.js', 'Math.floor', 'g00')"
-vg.no##+js(acis, Math.floor, g00)
 ! Rule "vgtv.no##+js(golem.de.js)" converted to: "vgtv.no#%#//scriptlet('ubo-golem.de.js')"
 vgtv.no##+js(golem.de.js)
+! Rule "spanienidag.es###topbanner:style(height: 1px !important)" converted to: "spanienidag.es#$##topbanner { height: 1px !important }"
+spanienidag.es###topbanner:style(height: 1px !important)
 ! Rule "vg.no,e24.no,gamer.no,tek.no,digi.no##+js(aopw, __AB__)" converted to: "vg.no,e24.no,gamer.no,tek.no,digi.no#%#//scriptlet('ubo-aopw.js', '__AB__')"
 vg.no,e24.no,gamer.no,tek.no,digi.no##+js(aopw, __AB__)
 ! Rule "||auglysingar.*.is^$frame" converted to: "||auglysingar.*.is^$subdocument"
 ||auglysingar.*.is^$frame
+! Rule "||brandstudio.inventory.schibsted.io^$frame,third-party" converted to: "||brandstudio.inventory.schibsted.io^$subdocument,third-party"
+||brandstudio.inventory.schibsted.io^$frame,third-party
 ! Rule "||isweb.no^$frame" converted to: "||isweb.no^$subdocument"
 ||isweb.no^$frame
 ! Rule "||vevlysingar.fo^$frame,third-party" converted to: "||vevlysingar.fo^$subdocument,third-party"
 ||vevlysingar.fo^$frame,third-party
-! Rule "||brandstudio.inventory.schibsted.io^$frame,third-party" converted to: "||brandstudio.inventory.schibsted.io^$subdocument,third-party"
-||brandstudio.inventory.schibsted.io^$frame,third-party
 ! Rule "||banner.landbrugsavisen.dk/reklame.aspx$frame" converted to: "||banner.landbrugsavisen.dk/reklame.aspx$subdocument"
 ||banner.landbrugsavisen.dk/reklame.aspx$frame
 ! Rule "||cdn.rikstoto.no/expert/GameShop^$frame,third-party,domain=~tipster.no" converted to: "||cdn.rikstoto.no/expert/GameShop^$subdocument,third-party,domain=~tipster.no"
@@ -50,8 +50,14 @@ aftenbladet.no##.article-content:style(padding: 0)
 dn.no###googlead-toppbanner:style(min-height: 0 !important)
 ! Rule "e24.no##.rightColumn:style(margin-top: 10px !important)" converted to: "e24.no#$#.rightColumn { margin-top: 10px !important }"
 e24.no##.rightColumn:style(margin-top: 10px !important)
+! Rule "edbpriser.dk##.product-list-row .description:style(position: static !important; word-break: break-word !important)" converted to: "edbpriser.dk#$#.product-list-row .description { position: static !important; word-break: break-word !important }"
+edbpriser.dk##.product-list-row .description:style(position: static !important; word-break: break-word !important)
 ! Rule "itavisen.no##.ad:before" converted to: "itavisen.no##.ad::before"
 itavisen.no##.ad:before
+! Rule "journalisten.dk##.article:style(padding-bottom: 10px !important)" converted to: "journalisten.dk#$#.article { padding-bottom: 10px !important }"
+journalisten.dk##.article:style(padding-bottom: 10px !important)
+! Rule "kondis.no###content:style(margin-top: 0px !important)" converted to: "kondis.no#$##content { margin-top: 0px !important }"
+kondis.no###content:style(margin-top: 0px !important)
 ! Rule "lydogbilde.no,lydogbillede.dk##.background-ad:style(min-height: 0 !important)" converted to: "lydogbilde.no,lydogbillede.dk#$#.background-ad { min-height: 0 !important }"
 lydogbilde.no,lydogbillede.dk##.background-ad:style(min-height: 0 !important)
 ! Rule "mbl.is##.container:style(margin-top: 0 !important)" converted to: "mbl.is#$#.container { margin-top: 0 !important }"
@@ -78,12 +84,6 @@ visir.is##.padded.limit--tight.limit:style(padding-top: 15px !important)
 visir.is##div.padded--no-bottom.padded--less.padded.limit:style(padding-top: 5px !important)
 ! Rule "www.tv2.no##body:not(.broom):not(.lab):style(padding-top: 70px !important)" converted to: "www.tv2.no#$#body:not(.broom):not(.lab) { padding-top: 70px !important }"
 www.tv2.no##body:not(.broom):not(.lab):style(padding-top: 70px !important)
-! Rule "kondis.no###content:style(margin-top: 0px !important)" converted to: "kondis.no#$##content { margin-top: 0px !important }"
-kondis.no###content:style(margin-top: 0px !important)
-! Rule "edbpriser.dk##.product-list-row .description:style(position: static !important; word-break: break-word !important)" converted to: "edbpriser.dk#$#.product-list-row .description { position: static !important; word-break: break-word !important }"
-edbpriser.dk##.product-list-row .description:style(position: static !important; word-break: break-word !important)
-! Rule "journalisten.dk##.article:style(padding-bottom: 10px !important)" converted to: "journalisten.dk#$#.article { padding-bottom: 10px !important }"
-journalisten.dk##.article:style(padding-bottom: 10px !important)
 ! Rule "||730.no/banner/*/sonymusic/$frame" converted to: "||730.no/banner/*/sonymusic/$subdocument"
 ||730.no/banner/*/sonymusic/$frame
 ! Rule "||gaysir.no/rek/bb_inline$frame" converted to: "||gaysir.no/rek/bb_inline$subdocument"
@@ -96,8 +96,8 @@ bt.dk##.article-container > .row > .col-12.col-xl-8:style(width: 98.1% !importan
 seher.no##.content-marketing-ribbon:style(margin-top: 20px !important)
 ! Rule "@@||seher.no/reise$ghide" converted to: "@@||seher.no/reise$generichide"
 @@||seher.no/reise$ghide
-! Rule "||prod-adops-proxy.dnitv.net^$empty,domain=dplay.*|~dplay.it|~dplay.es" converted to: "||prod-adops-proxy.dnitv.net^$redirect=nooptext,domain=dplay.*|~dplay.it|~dplay.es"
-||prod-adops-proxy.dnitv.net^$empty,domain=dplay.*|~dplay.it|~dplay.es
+! Rule "||prod-adops-proxy.dnitv.net^$empty,domain=discoveryplus.*" converted to: "||prod-adops-proxy.dnitv.net^$redirect=nooptext,domain=discoveryplus.*"
+||prod-adops-proxy.dnitv.net^$empty,domain=discoveryplus.*
 ! Rule "hero-magazine.com###header:style(position: inherit !important)" converted to: "hero-magazine.com#$##header { position: inherit !important }"
 hero-magazine.com###header:style(position: inherit !important)
 ! Rule "@@||notice.sp-prod.net^$frame,domain=ekstrabladet.dk" converted to: "@@||notice.sp-prod.net^$subdocument,domain=ekstrabladet.dk"
@@ -124,24 +124,14 @@ gamereactor.*##+js(ra, autoplay)
 ||media.gamereactor.dk/*Promo$mp4,domain=gamereactor.*
 ! Rule "||media.gamereactor.dk/prerolls$mp4,domain=gamereactor.*" converted to: "||media.gamereactor.dk/prerolls$redirect=noopmp4-1s,media,domain=gamereactor.*"
 ||media.gamereactor.dk/prerolls$mp4,domain=gamereactor.*
-! Rule "elkjop.no,elgiganten.dk###A-value:style(fill: #fff12c !important)" converted to: "elkjop.no,elgiganten.dk#$##A-value { fill: #fff12c !important }"
-elkjop.no,elgiganten.dk###A-value:style(fill: #fff12c !important)
-! Rule "elkjop.no,elgiganten.dk###B-value:style(fill: #edb731 !important)" converted to: "elkjop.no,elgiganten.dk#$##B-value { fill: #edb731 !important }"
-elkjop.no,elgiganten.dk###B-value:style(fill: #edb731 !important)
-! Rule "elkjop.no,elgiganten.dk###C-value:style(fill: #ed8631 !important)" converted to: "elkjop.no,elgiganten.dk#$##C-value { fill: #ed8631 !important }"
-elkjop.no,elgiganten.dk###C-value:style(fill: #ed8631 !important)
+! Rule "||freewheel-mtgx-tv.akamaized.net^$media,mp4,domain=viafree.*" converted to: "||freewheel-mtgx-tv.akamaized.net^$media,redirect=noopmp4-1s,domain=viafree.*"
+||freewheel-mtgx-tv.akamaized.net^$media,mp4,domain=viafree.*
 ! Rule "@@||bondebladet.screen9.tv^$ghide" converted to: "@@||bondebladet.screen9.tv^$generichide"
 @@||bondebladet.screen9.tv^$ghide
 ! Rule "@@||eurosport.no^$ghide" converted to: "@@||eurosport.no^$generichide"
 @@||eurosport.no^$ghide
 ! Rule "@@||eurosport.dk^$ghide" converted to: "@@||eurosport.dk^$generichide"
 @@||eurosport.dk^$ghide
-! Rule "@@||bildeler.name^$ghide" converted to: "@@||bildeler.name^$generichide"
-@@||bildeler.name^$ghide
-! Rule "@@||reservedele.name^$ghide" converted to: "@@||reservedele.name^$generichide"
-@@||reservedele.name^$ghide
-! Rule "vg.no#?#span:style(font-feature-settings: normal)" converted to: "vg.no#$?#span { font-feature-settings: normal }"
-vg.no#?#span:style(font-feature-settings: normal)
 ! Rule "##.Article-header-body:before" converted to: "##.Article-header-body::before"
 ##.Article-header-body:before
 ! Rule "##.polarisSpid.widget:before" converted to: "##.polarisSpid.widget::before"
@@ -182,14 +172,16 @@ berlingske.dk##.paywall-wrapper:style(top: unset !important)
 vg.no##div[data-test-tag=timestamp] + div:before
 ! Rule "vg.no##div[data-test-tag=timestamp] + p + div:before" converted to: "vg.no##div[data-test-tag=timestamp] + p + div::before"
 vg.no##div[data-test-tag=timestamp] + p + div:before
-! Rule "no,~nettavisen.no,~ba.no##.aid-incentive-overlay:style(top: 950px !important)" converted to: "no,~nettavisen.no,~ba.no#$#.aid-incentive-overlay { top: 950px !important }"
-no,~nettavisen.no,~ba.no##.aid-incentive-overlay:style(top: 950px !important)
-! Rule "no,~ba.no##.incentive-selector__positioner--visible, .incentive-selector__positioner, .aid-background-blur:style(filter: none !important)" converted to: "no,~ba.no#$#.incentive-selector__positioner--visible, .incentive-selector__positioner, .aid-background-blur { filter: none !important }"
-no,~ba.no##.incentive-selector__positioner--visible, .incentive-selector__positioner, .aid-background-blur:style(filter: none !important)
-! Rule "no,~ba.no##.login-card:style(color: #000 !important)" converted to: "no,~ba.no#$#.login-card { color: #000 !important }"
-no,~ba.no##.login-card:style(color: #000 !important)
+! Rule "aasavis.no,amta.no,an.no,auraavis.no,austagderblad.no,avisenagder.no,budstikka.no,bygdebladet.no,bygdeposten.no,dt.no,eikerbladet.no,enebakkavis.no,finnmarkdagblad.no,finnmarken.no,finnmarksposten.no,firda.no,firdaposten.no,fremover.no,gbnett.no,gd.no,gjengangeren.no,glomdalen.no,hadeland.no,helg.no,inderoyningen.no,indre.no,jarlsbergavis.no,jbl.no,kv.no,kvinnheringen.no,laagendalsposten.no,lierposten.no,lofotposten.no,lyngdalsavis.no,namdalsavisa.no,noblad.no,norddalen.no,nordhordland.no,nordlys.no,oa.no,oblad.no,op.no,ostlendingen.no,oyene.no,pd.no,rablad.no,ranablad.no,rb.no,retten.no,rha.no,ringblad.no,sa.no,sandeavis.no,sandnesposten.no,sb.no,smaalenene.no,snasningen.no,sognavis.no,solabladet.no,solungavisa.no,strandbuen.no,svelviksposten.no,ta.no,tb.no,telen.no,tk.no,tvedestrandsposten.no,varingen.no,vestbyavis.no##.aid-incentive-overlay:style(top: 950px !important)" converted to: "aasavis.no,amta.no,an.no,auraavis.no,austagderblad.no,avisenagder.no,budstikka.no,bygdebladet.no,bygdeposten.no,dt.no,eikerbladet.no,enebakkavis.no,finnmarkdagblad.no,finnmarken.no,finnmarksposten.no,firda.no,firdaposten.no,fremover.no,gbnett.no,gd.no,gjengangeren.no,glomdalen.no,hadeland.no,helg.no,inderoyningen.no,indre.no,jarlsbergavis.no,jbl.no,kv.no,kvinnheringen.no,laagendalsposten.no,lierposten.no,lofotposten.no,lyngdalsavis.no,namdalsavisa.no,noblad.no,norddalen.no,nordhordland.no,nordlys.no,oa.no,oblad.no,op.no,ostlendingen.no,oyene.no,pd.no,rablad.no,ranablad.no,rb.no,retten.no,rha.no,ringblad.no,sa.no,sandeavis.no,sandnesposten.no,sb.no,smaalenene.no,snasningen.no,sognavis.no,solabladet.no,solungavisa.no,strandbuen.no,svelviksposten.no,ta.no,tb.no,telen.no,tk.no,tvedestrandsposten.no,varingen.no,vestbyavis.no#$#.aid-incentive-overlay { top: 950px !important }"
+aasavis.no,amta.no,an.no,auraavis.no,austagderblad.no,avisenagder.no,budstikka.no,bygdebladet.no,bygdeposten.no,dt.no,eikerbladet.no,enebakkavis.no,finnmarkdagblad.no,finnmarken.no,finnmarksposten.no,firda.no,firdaposten.no,fremover.no,gbnett.no,gd.no,gjengangeren.no,glomdalen.no,hadeland.no,helg.no,inderoyningen.no,indre.no,jarlsbergavis.no,jbl.no,kv.no,kvinnheringen.no,laagendalsposten.no,lierposten.no,lofotposten.no,lyngdalsavis.no,namdalsavisa.no,noblad.no,norddalen.no,nordhordland.no,nordlys.no,oa.no,oblad.no,op.no,ostlendingen.no,oyene.no,pd.no,rablad.no,ranablad.no,rb.no,retten.no,rha.no,ringblad.no,sa.no,sandeavis.no,sandnesposten.no,sb.no,smaalenene.no,snasningen.no,sognavis.no,solabladet.no,solungavisa.no,strandbuen.no,svelviksposten.no,ta.no,tb.no,telen.no,tk.no,tvedestrandsposten.no,varingen.no,vestbyavis.no##.aid-incentive-overlay:style(top: 950px !important)
+! Rule "aasavis.no,amta.no,an.no,auraavis.no,austagderblad.no,avisenagder.no,budstikka.no,bygdebladet.no,bygdeposten.no,dt.no,eikerbladet.no,enebakkavis.no,finnmarkdagblad.no,finnmarken.no,finnmarksposten.no,firda.no,firdaposten.no,fremover.no,gbnett.no,gd.no,gjengangeren.no,glomdalen.no,hadeland.no,helg.no,inderoyningen.no,indre.no,jarlsbergavis.no,jbl.no,kv.no,kvinnheringen.no,laagendalsposten.no,lierposten.no,lofotposten.no,lyngdalsavis.no,namdalsavisa.no,noblad.no,norddalen.no,nordhordland.no,nordlys.no,oa.no,oblad.no,op.no,ostlendingen.no,oyene.no,pd.no,rablad.no,ranablad.no,rb.no,retten.no,rha.no,ringblad.no,sa.no,sandeavis.no,sandnesposten.no,sb.no,smaalenene.no,snasningen.no,sognavis.no,solabladet.no,solungavisa.no,strandbuen.no,svelviksposten.no,ta.no,tb.no,telen.no,tk.no,tvedestrandsposten.no,varingen.no,vestbyavis.no##.incentive-selector__positioner--visible, .incentive-selector__positioner, .aid-background-blur:style(filter: none !important)" converted to: "aasavis.no,amta.no,an.no,auraavis.no,austagderblad.no,avisenagder.no,budstikka.no,bygdebladet.no,bygdeposten.no,dt.no,eikerbladet.no,enebakkavis.no,finnmarkdagblad.no,finnmarken.no,finnmarksposten.no,firda.no,firdaposten.no,fremover.no,gbnett.no,gd.no,gjengangeren.no,glomdalen.no,hadeland.no,helg.no,inderoyningen.no,indre.no,jarlsbergavis.no,jbl.no,kv.no,kvinnheringen.no,laagendalsposten.no,lierposten.no,lofotposten.no,lyngdalsavis.no,namdalsavisa.no,noblad.no,norddalen.no,nordhordland.no,nordlys.no,oa.no,oblad.no,op.no,ostlendingen.no,oyene.no,pd.no,rablad.no,ranablad.no,rb.no,retten.no,rha.no,ringblad.no,sa.no,sandeavis.no,sandnesposten.no,sb.no,smaalenene.no,snasningen.no,sognavis.no,solabladet.no,solungavisa.no,strandbuen.no,svelviksposten.no,ta.no,tb.no,telen.no,tk.no,tvedestrandsposten.no,varingen.no,vestbyavis.no#$#.incentive-selector__positioner--visible, .incentive-selector__positioner, .aid-background-blur { filter: none !important }"
+aasavis.no,amta.no,an.no,auraavis.no,austagderblad.no,avisenagder.no,budstikka.no,bygdebladet.no,bygdeposten.no,dt.no,eikerbladet.no,enebakkavis.no,finnmarkdagblad.no,finnmarken.no,finnmarksposten.no,firda.no,firdaposten.no,fremover.no,gbnett.no,gd.no,gjengangeren.no,glomdalen.no,hadeland.no,helg.no,inderoyningen.no,indre.no,jarlsbergavis.no,jbl.no,kv.no,kvinnheringen.no,laagendalsposten.no,lierposten.no,lofotposten.no,lyngdalsavis.no,namdalsavisa.no,noblad.no,norddalen.no,nordhordland.no,nordlys.no,oa.no,oblad.no,op.no,ostlendingen.no,oyene.no,pd.no,rablad.no,ranablad.no,rb.no,retten.no,rha.no,ringblad.no,sa.no,sandeavis.no,sandnesposten.no,sb.no,smaalenene.no,snasningen.no,sognavis.no,solabladet.no,solungavisa.no,strandbuen.no,svelviksposten.no,ta.no,tb.no,telen.no,tk.no,tvedestrandsposten.no,varingen.no,vestbyavis.no##.incentive-selector__positioner--visible, .incentive-selector__positioner, .aid-background-blur:style(filter: none !important)
+! Rule "aasavis.no,amta.no,an.no,auraavis.no,austagderblad.no,avisenagder.no,budstikka.no,bygdebladet.no,bygdeposten.no,dt.no,eikerbladet.no,enebakkavis.no,finnmarkdagblad.no,finnmarken.no,finnmarksposten.no,firda.no,firdaposten.no,fremover.no,gbnett.no,gd.no,gjengangeren.no,glomdalen.no,hadeland.no,helg.no,inderoyningen.no,indre.no,jarlsbergavis.no,jbl.no,kv.no,kvinnheringen.no,laagendalsposten.no,lierposten.no,lofotposten.no,lyngdalsavis.no,namdalsavisa.no,noblad.no,norddalen.no,nordhordland.no,nordlys.no,oa.no,oblad.no,op.no,ostlendingen.no,oyene.no,pd.no,rablad.no,ranablad.no,rb.no,retten.no,rha.no,ringblad.no,sa.no,sandeavis.no,sandnesposten.no,sb.no,smaalenene.no,snasningen.no,sognavis.no,solabladet.no,solungavisa.no,strandbuen.no,svelviksposten.no,ta.no,tb.no,telen.no,tk.no,tvedestrandsposten.no,varingen.no,vestbyavis.no##.login-card:style(color: #000 !important)" converted to: "aasavis.no,amta.no,an.no,auraavis.no,austagderblad.no,avisenagder.no,budstikka.no,bygdebladet.no,bygdeposten.no,dt.no,eikerbladet.no,enebakkavis.no,finnmarkdagblad.no,finnmarken.no,finnmarksposten.no,firda.no,firdaposten.no,fremover.no,gbnett.no,gd.no,gjengangeren.no,glomdalen.no,hadeland.no,helg.no,inderoyningen.no,indre.no,jarlsbergavis.no,jbl.no,kv.no,kvinnheringen.no,laagendalsposten.no,lierposten.no,lofotposten.no,lyngdalsavis.no,namdalsavisa.no,noblad.no,norddalen.no,nordhordland.no,nordlys.no,oa.no,oblad.no,op.no,ostlendingen.no,oyene.no,pd.no,rablad.no,ranablad.no,rb.no,retten.no,rha.no,ringblad.no,sa.no,sandeavis.no,sandnesposten.no,sb.no,smaalenene.no,snasningen.no,sognavis.no,solabladet.no,solungavisa.no,strandbuen.no,svelviksposten.no,ta.no,tb.no,telen.no,tk.no,tvedestrandsposten.no,varingen.no,vestbyavis.no#$#.login-card { color: #000 !important }"
+aasavis.no,amta.no,an.no,auraavis.no,austagderblad.no,avisenagder.no,budstikka.no,bygdebladet.no,bygdeposten.no,dt.no,eikerbladet.no,enebakkavis.no,finnmarkdagblad.no,finnmarken.no,finnmarksposten.no,firda.no,firdaposten.no,fremover.no,gbnett.no,gd.no,gjengangeren.no,glomdalen.no,hadeland.no,helg.no,inderoyningen.no,indre.no,jarlsbergavis.no,jbl.no,kv.no,kvinnheringen.no,laagendalsposten.no,lierposten.no,lofotposten.no,lyngdalsavis.no,namdalsavisa.no,noblad.no,norddalen.no,nordhordland.no,nordlys.no,oa.no,oblad.no,op.no,ostlendingen.no,oyene.no,pd.no,rablad.no,ranablad.no,rb.no,retten.no,rha.no,ringblad.no,sa.no,sandeavis.no,sandnesposten.no,sb.no,smaalenene.no,snasningen.no,sognavis.no,solabladet.no,solungavisa.no,strandbuen.no,svelviksposten.no,ta.no,tb.no,telen.no,tk.no,tvedestrandsposten.no,varingen.no,vestbyavis.no##.login-card:style(color: #000 !important)
 ! Rule "nettavisen.no##.aid-incentive-overlay:style(top: 1875px !important)" converted to: "nettavisen.no#$#.aid-incentive-overlay { top: 1875px !important }"
 nettavisen.no##.aid-incentive-overlay:style(top: 1875px !important)
+! Rule "altaposten.no,andalsnes-avis.no,dolen.no,driva.no,fjordabladet.no,fjordingen.no,fjt.no,fjuken.no,folkebladet.no,framtidinord.no,heroynytt.no,ht.no,itromso.no,morenytt.no,rbnett.no,smp.no,sunnmoringen.no,vigga.no,vikebladet.no,vol.no##.article-body > [style^="display: none;"]:style(display: unset !important)" converted to: "altaposten.no,andalsnes-avis.no,dolen.no,driva.no,fjordabladet.no,fjordingen.no,fjt.no,fjuken.no,folkebladet.no,framtidinord.no,heroynytt.no,ht.no,itromso.no,morenytt.no,rbnett.no,smp.no,sunnmoringen.no,vigga.no,vikebladet.no,vol.no#$#.article-body > [style^="display: none;"] { display: unset !important }"
+altaposten.no,andalsnes-avis.no,dolen.no,driva.no,fjordabladet.no,fjordingen.no,fjt.no,fjuken.no,folkebladet.no,framtidinord.no,heroynytt.no,ht.no,itromso.no,morenytt.no,rbnett.no,smp.no,sunnmoringen.no,vigga.no,vikebladet.no,vol.no##.article-body > [style^="display: none;"]:style(display: unset !important)
 ! Rule "gratiskostplaner.dk##+js(aopw, KillAdBlock)" converted to: "gratiskostplaner.dk#%#//scriptlet('ubo-aopw.js', 'KillAdBlock')"
 gratiskostplaner.dk##+js(aopw, KillAdBlock)
 ! Rule "dagensbyggeri.dk##+js(std, (), 2500)" converted to: "dagensbyggeri.dk#%#//scriptlet('ubo-std.js', '()', '2500')"
@@ -210,429 +202,9 @@ gamereactor.*##+js(set, adblockEnabled, noopFunc)
 gamereactor.*##+js(set, trackAdblock, noopFunc)
 ! Rule "gamereactor.*##+js(acis, AdsReloadConfig)" converted to: "gamereactor.*#%#//scriptlet('ubo-acis.js', 'AdsReloadConfig')"
 gamereactor.*##+js(acis, AdsReloadConfig)
+! Rule "connery.dk##+js(set, adblockerAlert, noopFunc)" converted to: "connery.dk#%#//scriptlet('ubo-set.js', 'adblockerAlert', 'noopFunc')"
+connery.dk##+js(set, adblockerAlert, noopFunc)
 Error: "Invalid scriptlet" in the rule: "vgtv.no#%#//scriptlet('ubo-golem.de.js')"
 vgtv.no#%#//scriptlet('ubo-golem.de.js')
-Error: "Unknown modifier: doc" in the rule: "@@.isdownorblocked.com^$doc"
-@@.isdownorblocked.com^$doc
 ! Invalid selector:
 viafree.*##.vjs-playing:upward(1) ~ .no-autoplay-overlay
-Error: "Unknown modifier: doc" in the rule: "||paypal.*.no^$doc"
-||paypal.*.no^$doc
-Error: "Unknown modifier: doc" in the rule: "||vg.no.$doc"
-||vg.no.$doc
-Error: "Unknown modifier: doc" in the rule: "||elkjop.no.$doc"
-||elkjop.no.$doc
-Error: "Unknown modifier: doc" in the rule: "||coop.no.$doc"
-||coop.no.$doc
-Error: "Unknown modifier: doc" in the rule: "||shell.no.$doc"
-||shell.no.$doc
-Error: "Unknown modifier: doc" in the rule: "||finn.no.$doc"
-||finn.no.$doc
-Error: "Unknown modifier: doc" in the rule: "||posten.no.$doc"
-||posten.no.$doc
-Error: "Unknown modifier: doc" in the rule: "||postnord.no.$doc"
-||postnord.no.$doc
-Error: "Unknown modifier: doc" in the rule: "/finn.no/finno.htm$doc,domain=~facebook.com"
-/finn.no/finno.htm$doc,domain=~facebook.com
-Error: "Unknown modifier: doc" in the rule: "||dnb.no.$doc"
-||dnb.no.$doc
-Error: "Unknown modifier: doc" in the rule: "||sparebank1.no.$doc"
-||sparebank1.no.$doc
-Error: "Unknown modifier: doc" in the rule: "||nordea.no.$doc"
-||nordea.no.$doc
-Error: "Unknown modifier: doc" in the rule: "||sbanken.no.$doc"
-||sbanken.no.$doc
-Error: "Unknown modifier: doc" in the rule: "||danskebank.no.$doc"
-||danskebank.no.$doc
-Error: "Unknown modifier: doc" in the rule: "/?finn.no/login$doc"
-/?finn.no/login$doc
-Error: "Unknown modifier: doc" in the rule: "||komplett.no.$doc"
-||komplett.no.$doc
-Error: "Unknown modifier: doc" in the rule: "||nordnet.no.$doc"
-||nordnet.no.$doc
-Error: "Unknown modifier: doc" in the rule: "||skatteetaten.no.$doc"
-||skatteetaten.no.$doc
-Error: "Unknown modifier: doc" in the rule: "*/begrensede-tilbudet/$doc"
-*/begrensede-tilbudet/$doc
-Error: "Unknown modifier: doc" in the rule: "||norwegian.com.$doc"
-||norwegian.com.$doc
-Error: "Unknown modifier: doc" in the rule: "||flysas-no.$doc"
-||flysas-no.$doc
-Error: "Unknown modifier: doc" in the rule: "||tusenfryd-com.$doc"
-||tusenfryd-com.$doc
-Error: "Unknown modifier: doc" in the rule: "*/bli-avbrutt-bor-du-oppdater/$doc"
-*/bli-avbrutt-bor-du-oppdater/$doc
-Error: "Unknown modifier: doc" in the rule: "*/Norgesecure/$doc"
-*/Norgesecure/$doc
-Error: "Unknown modifier: doc" in the rule: "||.gratis-reisebilletter.$doc"
-||.gratis-reisebilletter.$doc
-Error: "Unknown modifier: doc" in the rule: "*/KiwiErbjudanden1/$doc"
-*/KiwiErbjudanden1/$doc
-Error: "Unknown modifier: doc" in the rule: "||trackvoluum.com^$doc"
-||trackvoluum.com^$doc
-Error: "Unknown modifier: doc" in the rule: "*/pakkerlevering/$doc"
-*/pakkerlevering/$doc
-Error: "Unknown modifier: doc" in the rule: "||102.112.2o7.net^$doc"
-||102.112.2o7.net^$doc
-Error: "Unknown modifier: doc" in the rule: "||tromselementbygg.no^$doc"
-||tromselementbygg.no^$doc
-Error: "Unknown modifier: doc" in the rule: "||apple-account-locked.losjevegen.no^$doc"
-||apple-account-locked.losjevegen.no^$doc
-Error: "Unknown modifier: doc" in the rule: "||arvetellefsen.no/curry^$doc"
-||arvetellefsen.no/curry^$doc
-Error: "Unknown modifier: doc" in the rule: "||vipps-sikkerhet.$doc"
-||vipps-sikkerhet.$doc
-Error: "Unknown modifier: doc" in the rule: "*/dnb11111^$doc"
-*/dnb11111^$doc
-Error: "Unknown modifier: doc" in the rule: "||nymelding.com^$doc"
-||nymelding.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||mrcal365.com^$doc"
-||mrcal365.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||ultimate-tech-products.myshopify.com^$doc"
-||ultimate-tech-products.myshopify.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||look-like-star.myshopify.com^$doc"
-||look-like-star.myshopify.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||limitedvoucher.com^$doc"
-||limitedvoucher.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||djurs.com-*.$doc"
-||djurs.com-*.$doc
-Error: "Unknown modifier: doc" in the rule: "||pensjonistferie.no^$doc"
-||pensjonistferie.no^$doc
-Error: "Unknown modifier: doc" in the rule: "||postuksus.com^$doc"
-||postuksus.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||beatsapple.top^$doc"
-||beatsapple.top^$doc
-Error: "Unknown modifier: doc" in the rule: "||jimmychoostore.top^$doc"
-||jimmychoostore.top^$doc
-Error: "Unknown modifier: doc" in the rule: "||hervelegeroutletusa.com^$doc"
-||hervelegeroutletusa.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||replicapatekphilippe.com^$doc"
-||replicapatekphilippe.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||hot-rap-beats.top^$doc"
-||hot-rap-beats.top^$doc
-Error: "Unknown modifier: doc" in the rule: "||replicarolexyachtmaster.com^$doc"
-||replicarolexyachtmaster.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||secureriches.com^$doc"
-||secureriches.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||bizcashtrend.com^$doc"
-||bizcashtrend.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||toptechmania.com^$doc"
-||toptechmania.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||rnbinance.com^$doc"
-||rnbinance.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||brightertrade.com^$doc"
-||brightertrade.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||cost2buy.net^$doc"
-||cost2buy.net^$doc
-Error: "Unknown modifier: doc" in the rule: "||kongeparken.com-*$doc"
-||kongeparken.com-*$doc
-Error: "Unknown modifier: doc" in the rule: "||kiwi.com-*$doc"
-||kiwi.com-*$doc
-Error: "Unknown modifier: doc" in the rule: "||ruter.top^$doc"
-||ruter.top^$doc
-Error: "Unknown modifier: doc" in the rule: "||gokkw.com^$doc"
-||gokkw.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||earnmoneyglobal.com^$doc"
-||earnmoneyglobal.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||trendyn.me^$doc"
-||trendyn.me^$doc
-Error: "Unknown modifier: doc" in the rule: "||getmail-no.$doc"
-||getmail-no.$doc
-Error: "Unknown modifier: doc" in the rule: "||surveryrewards1.com^$doc"
-||surveryrewards1.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||pprfct.com^$doc"
-||pprfct.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||liveshopdealz.com^$doc"
-||liveshopdealz.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||elkjop*.club^$doc"
-||elkjop*.club^$doc
-Error: "Unknown modifier: doc" in the rule: "/css/*sparebank1.no^$doc"
-/css/*sparebank1.no^$doc
-Error: "Unknown modifier: doc" in the rule: "||phosphox.com^$doc"
-||phosphox.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||nodzoom.com^$doc"
-||nodzoom.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||rbgeg.com^$doc"
-||rbgeg.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||rbkbb.com^$doc"
-||rbkbb.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||addmoviesnow.com^$doc"
-||addmoviesnow.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||faarup.com-*.$doc"
-||faarup.com-*.$doc
-Error: "Unknown modifier: doc" in the rule: "||com-dk.com^$doc"
-||com-dk.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||legoland.com-*.$doc"
-||legoland.com-*.$doc
-Error: "Unknown modifier: doc" in the rule: "||bondiblue.co.uk^$doc"
-||bondiblue.co.uk^$doc
-Error: "Unknown modifier: doc" in the rule: "||ucrhealthyhearts.com^$doc"
-||ucrhealthyhearts.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||myk-news.com^$doc"
-||myk-news.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||hcliips.com^$doc"
-||hcliips.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||bestphoneapplication.com^$doc"
-||bestphoneapplication.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||vision-hey.club^$doc"
-||vision-hey.club^$doc
-Error: "Unknown modifier: doc" in the rule: "||top-topic.co^$doc"
-||top-topic.co^$doc
-Error: "Unknown modifier: doc" in the rule: "||geometra-bologna.it^$doc"
-||geometra-bologna.it^$doc
-Error: "Unknown modifier: doc" in the rule: "||sky.gs^$doc"
-||sky.gs^$doc
-Error: "Unknown modifier: doc" in the rule: "||is-a-personaltrainer.com^$doc"
-||is-a-personaltrainer.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||rigspolitiet.com^$doc"
-||rigspolitiet.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||nemid.org^$doc"
-||nemid.org^$doc
-Error: "Unknown modifier: doc" in the rule: "||topgadgetboom.com^$doc"
-||topgadgetboom.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||ocgadgets.com^$doc"
-||ocgadgets.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||ocgadgetss.myshopify.com^$doc"
-||ocgadgetss.myshopify.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||onelifetechno.com^$doc"
-||onelifetechno.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||rbaab.net^$doc"
-||rbaab.net^$doc
-Error: "Unknown modifier: doc" in the rule: "||rbppg.net^$doc"
-||rbppg.net^$doc
-Error: "Unknown modifier: doc" in the rule: "||ekstrabiadet.$doc"
-||ekstrabiadet.$doc
-Error: "Unknown modifier: doc" in the rule: "||kronoscm.com^$doc"
-||kronoscm.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||daily-news.tech^$doc"
-||daily-news.tech^$doc
-Error: "Unknown modifier: doc" in the rule: "||limevow.com^$doc"
-||limevow.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||travelersloch.com^$doc"
-||travelersloch.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||trainingcalculate.com^$doc"
-||trainingcalculate.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||fintechnow*.buzz^$doc"
-||fintechnow*.buzz^$doc
-Error: "Unknown modifier: doc" in the rule: "||wealthnews*.xyz^$doc"
-||wealthnews*.xyz^$doc
-Error: "Unknown modifier: doc" in the rule: "||rbono.net^$doc"
-||rbono.net^$doc
-Error: "Unknown modifier: doc" in the rule: "||roopede.com^$doc"
-||roopede.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||no-personal.com^$doc"
-||no-personal.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||transitsuburban.com^$doc"
-||transitsuburban.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||newzeninfotech.com^$doc"
-||newzeninfotech.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||probenefit.net^$doc"
-||probenefit.net^$doc
-Error: "Unknown modifier: doc" in the rule: "||ssbeveragedistribution.com^$doc"
-||ssbeveragedistribution.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||norge.*.icu^$doc"
-||norge.*.icu^$doc
-Error: "Unknown modifier: doc" in the rule: "||euronews*.buzz^$doc"
-||euronews*.buzz^$doc
-Error: "Unknown modifier: doc" in the rule: "||softwaredaily*.monster^$doc"
-||softwaredaily*.monster^$doc
-Error: "Unknown modifier: doc" in the rule: "||stalknews*.buzz^$doc"
-||stalknews*.buzz^$doc
-Error: "Unknown modifier: doc" in the rule: "||goldupdates*.xyz^$doc"
-||goldupdates*.xyz^$doc
-Error: "Unknown modifier: doc" in the rule: "||sikre-vipps-konto.$doc"
-||sikre-vipps-konto.$doc
-Error: "Unknown modifier: doc" in the rule: "||vidcopa.me^$doc"
-||vidcopa.me^$doc
-Error: "Unknown modifier: doc" in the rule: "||luxshifting.com^$doc"
-||luxshifting.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||smallrise.com^$doc"
-||smallrise.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||lepq.club^$doc"
-||lepq.club^$doc
-Error: "Unknown modifier: doc" in the rule: "||lampnatives.com^$doc"
-||lampnatives.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||offerleads.club^$doc"
-||offerleads.club^$doc
-Error: "Unknown modifier: doc" in the rule: "/cop-no/index.htm$doc"
-/cop-no/index.htm$doc
-Error: "Unknown modifier: doc" in the rule: "||ninjaschools.org^$doc"
-||ninjaschools.org^$doc
-Error: "Unknown modifier: doc" in the rule: "||bamboobotanica.com^$doc"
-||bamboobotanica.com^$doc
-Error: "Unknown modifier: doc" in the rule: "/survey/heldige^$doc"
-/survey/heldige^$doc
-Error: "Unknown modifier: doc" in the rule: "||cionialessio.it^$doc"
-||cionialessio.it^$doc
-Error: "Unknown modifier: doc" in the rule: "||sites.google.*/halaman-muka^$doc"
-||sites.google.*/halaman-muka^$doc
-Error: "Unknown modifier: doc" in the rule: "||sites.google.com/view/truls-svendsen^$doc"
-||sites.google.com/view/truls-svendsen^$doc
-Error: "Unknown modifier: doc" in the rule: "||signup-*vpns.com^$doc"
-||signup-*vpns.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||is-by.us^$doc"
-||is-by.us^$doc
-Error: "Unknown modifier: doc" in the rule: "||velumstand.com^$doc"
-||velumstand.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||thesleepinggod.com^$doc"
-||thesleepinggod.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||telenors.*.cx^$doc"
-||telenors.*.cx^$doc
-Error: "Unknown modifier: doc" in the rule: "||ssl-bekreftelse-abonnement.com^$doc"
-||ssl-bekreftelse-abonnement.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||valspe.com.br^$doc"
-||valspe.com.br^$doc
-Error: "Unknown modifier: doc" in the rule: "||tekuon.com^$doc"
-||tekuon.com^$doc
-Error: "Unknown modifier: doc" in the rule: "-sparebank1.*.net^$doc"
--sparebank1.*.net^$doc
-Error: "Unknown modifier: doc" in the rule: "||cinefique.com^$doc"
-||cinefique.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||niupaiba.com^$doc"
-||niupaiba.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||straightbeforemeat14.live^$doc"
-||straightbeforemeat14.live^$doc
-Error: "Unknown modifier: doc" in the rule: "||cool-tech.store^$doc"
-||cool-tech.store^$doc
-Error: "Unknown modifier: doc" in the rule: "||adidasko.com^$doc"
-||adidasko.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||airmaxskobillige.com^$doc"
-||airmaxskobillige.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||allergyfl.com^$doc"
-||allergyfl.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||apvoc-ga.com^$doc"
-||apvoc-ga.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||assassinfitness.com^$doc"
-||assassinfitness.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||benshermanoslo.com^$doc"
-||benshermanoslo.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||billigesalg.com^$doc"
-||billigesalg.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||bostongrnhsflowers.com^$doc"
-||bostongrnhsflowers.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||caperforaciones.com^$doc"
-||caperforaciones.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||coralls.com^$doc"
-||coralls.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||crossfiterada.com^$doc"
-||crossfiterada.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||crownedwithlaurels.com^$doc"
-||crownedwithlaurels.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||daradis.com^$doc"
-||daradis.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||denningwelldrilling.com^$doc"
-||denningwelldrilling.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||drakternorge.com^$doc"
-||drakternorge.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||drcarolyngroff.com^$doc"
-||drcarolyngroff.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||dunjakke-no.com^$doc"
-||dunjakke-no.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||easyliving4you.com^$doc"
-||easyliving4you.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||eurosko.net^$doc"
-||eurosko.net^$doc
-Error: "Unknown modifier: doc" in the rule: "||fatalfailblog.com^$doc"
-||fatalfailblog.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||festmusikk.com^$doc"
-||festmusikk.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||fotballsko-salg.com^$doc"
-||fotballsko-salg.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||godeskonettbutikk.com^$doc"
-||godeskonettbutikk.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||gsport.com^$doc"
-||gsport.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||hernoclothing.com^$doc"
-||hernoclothing.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||hollisternorge.com^$doc"
-||hollisternorge.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||jakkesalgs.com^$doc"
-||jakkesalgs.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||jakkesnorge.com^$doc"
-||jakkesnorge.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||joseph-holland.com^$doc"
-||joseph-holland.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||jessicaivory.com^$doc"
-||jessicaivory.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||legarralazcoz.com^$doc"
-||legarralazcoz.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||lindseysopticians.com^$doc"
-||lindseysopticians.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||linkshe.com^$doc"
-||linkshe.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||lrgst.com^$doc"
-||lrgst.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||manasporthorse.com^$doc"
-||manasporthorse.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||mayor4london.com^$doc"
-||mayor4london.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||mbtnorge.com^$doc"
-||mbtnorge.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||meladermfacts.com^$doc"
-||meladermfacts.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||mncprobuild.com^$doc"
-||mncprobuild.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||moebel-thiems.com^$doc"
-||moebel-thiems.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||moteshoes.com^$doc"
-||moteshoes.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||museuw.com^$doc"
-||museuw.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||mycraftypad.com^$doc"
-||mycraftypad.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||nasajones.com^$doc"
-||nasajones.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||nikebutikks.com^$doc"
-||nikebutikks.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||nordartisan.com^$doc"
-||nordartisan.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||norfotball.com^$doc"
-||norfotball.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||norgefotball.com^$doc"
-||norgefotball.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||norge.parkaoutdoor.com^$doc"
-||norge.parkaoutdoor.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||norgejakke.com^$doc"
-||norgejakke.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||norgejakkerbutikk.com^$doc"
-||norgejakkerbutikk.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||norgeshoes.com^$doc"
-||norgeshoes.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||oflike.com^$doc"
-||oflike.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||omgrm.com^$doc"
-||omgrm.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||parajumpersitoutlet.com^$doc"
-||parajumpersitoutlet.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||parajumpersnettbutikk.com^$doc"
-||parajumpersnettbutikk.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||parajumpersnorway.com^$doc"
-||parajumpersnorway.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||parajumperssalg.com^$doc"
-||parajumperssalg.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||pjs.outlet.com^$doc"
-||pjs.outlet.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||popeurope.com^$doc"
-||popeurope.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||skonmdnorge.com^$doc"
-||skonmdnorge.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||sykkeltrøye.com^$doc"
-||sykkeltrøye.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||tobiascelebritymusicevents.com^$doc"
-||tobiascelebritymusicevents.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||um-bs.com^$doc"
-||um-bs.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||vansnorge.com^$doc"
-||vansnorge.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||nofotballshop.com^$doc"
-||nofotballshop.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||nofotballstore.com^$doc"
-||nofotballstore.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||nodrakts.com^$doc"
-||nodrakts.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||dkfodboldstore.com^$doc"
-||dkfodboldstore.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||vmfodboldtoj.com^$doc"
-||vmfodboldtoj.com^$doc
-Error: "Unknown modifier: doc" in the rule: "||minfodboldbutik.com^$doc"
-||minfodboldbutik.com^$doc

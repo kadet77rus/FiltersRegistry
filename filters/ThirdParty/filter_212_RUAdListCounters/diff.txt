@@ -1,7 +1,29 @@
+! Rule "rambler.*,~www.rambler.*#?#.pub_300x250.text-ad-links.adbanner.ad.text_ad.pub_728x90.text-ad.nav-ad.text-ads.textAd.ad-banner.text_ads.pub_300x250m:style(display: block !important)" converted to: "rambler.*,~www.rambler.*#$?#.pub_300x250.text-ad-links.adbanner.ad.text_ad.pub_728x90.text-ad.nav-ad.text-ads.textAd.ad-banner.text_ads.pub_300x250m { display: block !important }"
+rambler.*,~www.rambler.*#?#.pub_300x250.text-ad-links.adbanner.ad.text_ad.pub_728x90.text-ad.nav-ad.text-ads.textAd.ad-banner.text_ads.pub_300x250m:style(display: block !important)
+! Rule "/^https?://mail\.yandex\.[^\s]{125,}/$empty,script,~third-party" converted to: "/^https?://mail\.yandex\.[^\s]{125,}/$redirect=nooptext,script,~third-party"
+/^https?://mail\.yandex\.[^\s]{125,}/$empty,script,~third-party
+! Rule "/^https?://yastatic\.net\/www\/_\/[^\s]{150,}/$empty,image,domain=yandex.by|yandex.kz|yandex.ru|yandex.ua|yandex.uz" converted to: "/^https?://yastatic\.net\/www\/_\/[^\s]{150,}/$redirect=nooptext,image,domain=yandex.by|yandex.kz|yandex.ru|yandex.ua|yandex.uz"
+/^https?://yastatic\.net\/www\/_\/[^\s]{150,}/$empty,image,domain=yandex.by|yandex.kz|yandex.ru|yandex.ua|yandex.uz
+! Rule "||yastatic.net/*/front-maps-static/*/chunks/promo/$empty" converted to: "||yastatic.net/*/front-maps-static/*/chunks/promo/$redirect=nooptext"
+||yastatic.net/*/front-maps-static/*/chunks/promo/$empty
+! Rule "||yastatic.net/yandex-video-player-iframe-api-bundles-stable/*?adsdk-try=$empty" converted to: "||yastatic.net/yandex-video-player-iframe-api-bundles-stable/*?adsdk-try=$redirect=nooptext"
+||yastatic.net/yandex-video-player-iframe-api-bundles-stable/*?adsdk-try=$empty
+! Rule "4pda.*##+js(abort-current-inline-script, document.querySelectorAll, outerHeight)" converted to: "4pda.*#%#//scriptlet('ubo-abort-current-inline-script.js', 'document.querySelectorAll', 'outerHeight')"
+4pda.*##+js(abort-current-inline-script, document.querySelectorAll, outerHeight)
+! Rule "4pda.*##+js(no-setTimeout-if, removeAttr, setTimeout)" converted to: "4pda.*#%#//scriptlet('ubo-no-setTimeout-if.js', 'removeAttr', 'setTimeout')"
+4pda.*##+js(no-setTimeout-if, removeAttr, setTimeout)
 ! Rule "4pda.*##html[style] > body :not(div) ~ :not(div)[class][id][style]:style(background-image: none !important)" converted to: "4pda.*#$#html[style] > body :not(div) ~ :not(div)[class][id][style] { background-image: none !important }"
 4pda.*##html[style] > body :not(div) ~ :not(div)[class][id][style]:style(background-image: none !important)
+! Rule "4pda.*##html[style] > body div.holder-no-hidden:style(margin-bottom: 10px !important)" converted to: "4pda.*#$#html[style] > body div.holder-no-hidden { margin-bottom: 10px !important }"
+4pda.*##html[style] > body div.holder-no-hidden:style(margin-bottom: 10px !important)
+! 4pda.*#%#//scriptlet('ubo-abort-current-inline-script.js', 'document.querySelectorAll', 'outerHeight') is excluded by "#%#//scriptlet" in exclusions-low.txt
+4pda.*#%#//scriptlet('ubo-abort-current-inline-script.js', 'document.querySelectorAll', 'outerHeight')
+! 4pda.*#%#//scriptlet('ubo-no-setTimeout-if.js', 'removeAttr', 'setTimeout') is excluded by "#%#//scriptlet" in exclusions-low.txt
+4pda.*#%#//scriptlet('ubo-no-setTimeout-if.js', 'removeAttr', 'setTimeout')
 ! 4pda.*#$#html[style] > body :not(div) ~ :not(div)[class][id][style] { background-image: none !important } is excluded by "#$#" in exclusions-low.txt
 4pda.*#$#html[style] > body :not(div) ~ :not(div)[class][id][style] { background-image: none !important }
+! 4pda.*#$#html[style] > body div.holder-no-hidden { margin-bottom: 10px !important } is excluded by "#$#" in exclusions-low.txt
+4pda.*#$#html[style] > body div.holder-no-hidden { margin-bottom: 10px !important }
 ! Invalid selector:
 joyreactor.cc,pornreactor.cc,reactor.cc#?#+js(abort-on-property-read.js, Joyreactor.show_ads)
 ! Invalid selector:
@@ -11,19 +33,17 @@ rutube.ru#?#+js(json-prune.js, creative, creative.id)
 ! Invalid selector:
 rutube.ru#?#+js(json-prune.js, interactives, interactives.0)
 ! Invalid selector:
+buhgalter.com.ua#?#+js(no-setTimeout-if.js, /b-buy-access/)
+! Invalid selector:
+online-fix.me#?#+js(no-setTimeout-if.js, vid_vpaut_div)
+! Invalid selector:
 ivi.ru#?#+js(set-constant.js, Object.prototype.hasAdv, noopFunc)
 ! Invalid selector:
 yastatic.net#?#+js(set-constant.js, Object.prototype.hasPreroll, null)
 ! Invalid selector:
-rutracker.lib,rutracker.net,rutracker.nl,rutracker.org#?#+js(set-constant.js, String.prototype.startsWith, noopFunc)
+rutr.life,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org#?#+js(set-constant.js, String.prototype.startsWith, noopFunc)
 ! Invalid selector:
 rp5.am,rp5.by,rp5.co.uk,rp5.kz,rp5.lt,rp5.lv,rp5.md,rp5.ru,rp5.ua#?#+js(setTimeout-defuser.js, xvb)
-! Invalid selector:
-4pda.*#?#+js(abort-current-inline-script.js, setTimeout, removeAttribute)
-! Invalid selector:
-autorambler.ru,championat.com,eda.ru,gazeta.ru,lenta.ru,letidor.ru,motor.ru,passion.ru,quto.ru,rambler.*,rns.online,wmj.ru#?#+js(json-prune.js, Blocks)
-! Invalid selector:
-autorambler.ru,championat.com,eda.ru,gazeta.ru,lenta.ru,letidor.ru,motor.ru,passion.ru,quto.ru,rambler.*,rns.online,wmj.ru#?#^script:has-text("getPrefixes")
 ! Invalid selector:
 horoscopes.rambler.*#?#+js(set-constant.js, Object.prototype.needShowAlicePopup, null)
 ! Invalid selector:
@@ -31,11 +51,29 @@ lena-miro.ru,levik.blog,livejournal.*,olegmakarenko.ru,shakko.ru,varlamov.*#?#+j
 ! Invalid selector:
 nova.rambler.*#?#+js(abort-on-property-read.js, Object.prototype.AdvManager)
 ! Invalid selector:
+www.afisha.*,autorambler.ru,championat.com,eda.ru,gazeta.ru,lenta.ru,letidor.ru,motor.ru,passion.ru,quto.ru,rambler.*,rns.online,wmj.ru#?#+js(json-prune.js, Blocks)
+! Invalid selector:
+www.afisha.*,autorambler.ru,championat.com,eda.ru,gazeta.ru,lenta.ru,letidor.ru,motor.ru,passion.ru,quto.ru,rambler.*,rns.online,wmj.ru#?#^script:has-text("getPrefixes")
+! Invalid selector:
+frontend.vh.yandex.*#?#+js(set-constant.js, Object.prototype._getAutoplay, noopFunc)
+! Invalid selector:
+frontend.vh.yandex.*#?#+js(set-constant.js, Object.prototype.togglePlaybackOnVisibilityChange, null)
+! Invalid selector:
+mail.yandex.*#?#+js(set-constant.js, Object.prototype.changeLinkHref, noopFunc)
+! Invalid selector:
 ~vh.yandex.ru,~yandex.net,yandex.*#?#+js(abort-on-property-read.js, Ya.loaderVer)
 ! Invalid selector:
 ~yandex.net,yandex.*#?#+js(abort-on-property-read.js, yaads.renderBlock)
 ! Invalid selector:
 ~yandex.net,yandex.*#?#+js(abort-on-property-read.js, yaads.renderWidget)
+Error: "Unknown pseudo class: +js(abort-on-stack-trace.js, Object.prototype.ypParams, stackDepth:4)" in the rule: "~yandex.net,yandex.*#?#+js(abort-on-stack-trace.js, Object.prototype.ypParams, stackDepth:4)"
+~yandex.net,yandex.*#?#+js(abort-on-stack-trace.js, Object.prototype.ypParams, stackDepth:4)
+! Invalid selector:
+~yandex.net,yandex.*#?#+js(json-prune.js, direct rtb seatbid)
+! Invalid selector:
+~yandex.net,yandex.*#?#+js(set-constant.js, __AAB__, false)
+! Invalid selector:
+~yandex.net,yandex.*#?#+js(set-constant.js, Object.prototype._hasAdblock, noopFunc)
 ! Invalid selector:
 ~yandex.net,yandex.*#?#+js(set-constant.js, Object.prototype.getHoneypot, null)
 ! Invalid selector:
@@ -46,20 +84,36 @@ nova.rambler.*#?#+js(abort-on-property-read.js, Object.prototype.AdvManager)
 ~yandex.net,yandex.*#?#+js(set-constant.js, Object.prototype.loaderVer, noopFunc)
 ! Invalid selector:
 ~yandex.net,yandex.*#?#+js(set-constant.js, Object.prototype.useAbdBundle, false)
-! Invalid selector:
-~yandex.net,yandex.*#?#+js(set-constant.js, __AAB__, false)
-Error: "Unknown modifier: queryprune=." in the rule: "/story/*?lang=$document,queryprune=.,domain=yandex.*"
-/story/*?lang=$document,queryprune=.,domain=yandex.*
-Error: "Unknown modifier: queryprune=." in the rule: "?commercial=$document,queryprune=.,domain=ria.com"
-?commercial=$document,queryprune=.,domain=ria.com
-Error: "Unknown modifier: queryprune=." in the rule: "?from=newsfeed$document,queryprune=.,domain=autonews.ru|rbc.ru|sportrbc.ru"
-?from=newsfeed$document,queryprune=.,domain=autonews.ru|rbc.ru|sportrbc.ru
-Error: "Unknown modifier: queryprune=." in the rule: "?r_audience=$document,queryprune=.,domain=ria.com"
-?r_audience=$document,queryprune=.,domain=ria.com
-Error: "Unknown modifier: queryprune=." in the rule: "?utm_campaign=$document,queryprune=.,domain=yandex.*"
-?utm_campaign=$document,queryprune=.,domain=yandex.*
-Error: "Unknown modifier: queryprune=." in the rule: "?utm_source=$document,queryprune=.,domain=yandex.*"
-?utm_source=$document,queryprune=.,domain=yandex.*
+Error: "Unknown modifier: queryprune=|fbclid" in the rule: "&fbclid=$document,queryprune=|fbclid"
+&fbclid=$document,queryprune=|fbclid
+Error: "Unknown modifier: queryprune=|" in the rule: "&ymclid=$document,queryprune=|,domain=~ozon.onelink.me"
+&ymclid=$document,queryprune=|,domain=~ozon.onelink.me
+Error: "Unknown modifier: queryprune=|" in the rule: "/story/*?lang=$document,queryprune=|,domain=yandex.*"
+/story/*?lang=$document,queryprune=|,domain=yandex.*
+Error: "Unknown modifier: queryprune=|utm_" in the rule: "=ukraine_news&utm_$document,queryprune=|utm_"
+=ukraine_news&utm_$document,queryprune=|utm_
+Error: "Unknown modifier: queryprune=|clid" in the rule: "?clid=$document,queryprune=|clid,domain=yandex.*"
+?clid=$document,queryprune=|clid,domain=yandex.*
+Error: "Unknown modifier: queryprune=|" in the rule: "?commercial=$document,queryprune=|,domain=ria.com"
+?commercial=$document,queryprune=|,domain=ria.com
+Error: "Unknown modifier: queryprune=|fbclid" in the rule: "?fbclid=$document,queryprune=|fbclid"
+?fbclid=$document,queryprune=|fbclid
+Error: "Unknown modifier: queryprune=|from" in the rule: "?from=$document,queryprune=|from,domain=3dnews.ru|7days.ru|autonews.ru|rbc.ru|sportrbc.ru"
+?from=$document,queryprune=|from,domain=3dnews.ru|7days.ru|autonews.ru|rbc.ru|sportrbc.ru
+Error: "Unknown modifier: queryprune=|" in the rule: "?r_audience=$document,queryprune=|,domain=ria.com"
+?r_audience=$document,queryprune=|,domain=ria.com
+Error: "Unknown modifier: queryprune=|rcmd_" in the rule: "?rcmd_$document,queryprune=|rcmd_,domain=ria.ru"
+?rcmd_$document,queryprune=|rcmd_,domain=ria.ru
+Error: "Unknown modifier: queryprune=|referrer_" in the rule: "?referrer_block=$document,queryprune=|referrer_,domain=mail.ru|sportmail.ru"
+?referrer_block=$document,queryprune=|referrer_,domain=mail.ru|sportmail.ru
+Error: "Unknown modifier: queryprune=|ruid" in the rule: "?ruid=$document,queryprune=|ruid,domain=autonews.ru|rbc.ru|sportrbc.ru"
+?ruid=$document,queryprune=|ruid,domain=autonews.ru|rbc.ru|sportrbc.ru
+Error: "Unknown modifier: queryprune=|" in the rule: "?source=ukrnet|$document,queryprune=|"
+?source=ukrnet|$document,queryprune=|
+Error: "Unknown modifier: queryprune=|" in the rule: "?utm_campaign=$document,queryprune=|,domain=yandex.*"
+?utm_campaign=$document,queryprune=|,domain=yandex.*
+Error: "Unknown modifier: queryprune=|" in the rule: "?utm_source=$document,queryprune=|,domain=mail.ru|sportmail.ru|yandex.*"
+?utm_source=$document,queryprune=|,domain=mail.ru|sportmail.ru|yandex.*
 Error: "Unknown modifier: queryprune=|utm_" in the rule: "?utm_source=finobzor.ru$document,queryprune=|utm_"
 ?utm_source=finobzor.ru$document,queryprune=|utm_
 Error: "Unknown modifier: queryprune=|utm_" in the rule: "?utm_source=nadavi$document,queryprune=|utm_"
@@ -72,18 +126,20 @@ Error: "Unknown modifier: queryprune=|utm_" in the rule: "?utm_source=ukr$docume
 ?utm_source=ukr$document,queryprune=|utm_
 Error: "Unknown modifier: queryprune=|utm_" in the rule: "?utm_source=warfiles.ru$document,queryprune=|utm_"
 ?utm_source=warfiles.ru$document,queryprune=|utm_
-Error: "Unknown modifier: queryprune=|utm_" in the rule: "?utm_source=yxnews&utm_$document,queryprune=|utm_"
-?utm_source=yxnews&utm_$document,queryprune=|utm_
-Error: "Unknown modifier: queryprune=." in the rule: "from=*_portal&lang=$document,queryprune=.,domain=yandex.*"
-from=*_portal&lang=$document,queryprune=.,domain=yandex.*
-Error: "Unknown modifier: queryprune=|utm_" in the rule: "utm_$document,xmlhttprequest,queryprune=|utm_,domain=4pda.ru|auto.ru|autonews.ru|championat.com|esquire.ru|gazeta.ru|instagram.com|ivi.ru|kp.by|kp.kg|kp.kz|kp.md|kp.ru|kurs.com.ua|lenta.ru|livejournal.com|m24.ru|mail.ru|moslenta.ru|newstube.ru|nv.ua|rambler.ru|rbc.ru|rg.ru|ria.com|riafan.ru|rt.com|rueconomics.ru|sportrbc.ru|svpressa.ru|tass.ru|tvzvezda.ru|vz.ru"
-utm_$document,xmlhttprequest,queryprune=|utm_,domain=4pda.ru|auto.ru|autonews.ru|championat.com|esquire.ru|gazeta.ru|instagram.com|ivi.ru|kp.by|kp.kg|kp.kz|kp.md|kp.ru|kurs.com.ua|lenta.ru|livejournal.com|m24.ru|mail.ru|moslenta.ru|newstube.ru|nv.ua|rambler.ru|rbc.ru|rg.ru|ria.com|riafan.ru|rt.com|rueconomics.ru|sportrbc.ru|svpressa.ru|tass.ru|tvzvezda.ru|vz.ru
+Error: "Unknown modifier: queryprune=|" in the rule: "?ymclid=$document,queryprune=|"
+?ymclid=$document,queryprune=|
+Error: "Unknown modifier: queryprune=|" in the rule: "from=*_portal&lang=$document,queryprune=|,domain=yandex.*"
+from=*_portal&lang=$document,queryprune=|,domain=yandex.*
+Error: "Unknown modifier: queryprune=|utm_" in the rule: "utm_$document,xmlhttprequest,queryprune=|utm_,domain=4pda.ru|auto.ru|autonews.ru|championat.com|esquire.ru|gazeta.ru|goha.ru|instagram.com|interfax.ru|ivi.ru|iz.ru|kommersant.ru|kp.by|kp.kg|kp.kz|kp.md|kp.ru|kurs.com.ua|lenta.ru|livejournal.com|m24.ru|mail.ru|moslenta.ru|motor.ru|newstube.ru|nv.ua|rambler.ru|rbc.ru|rg.ru|ria.com|riafan.ru|rt.com|rueconomics.ru|sovsport.ru|sport-express.ru|sportrbc.ru|sports.ru|svpressa.ru|tass.ru|tribuna.com|tut.by|tvzvezda.ru|vz.ru|wtftime.ru|www.1tv.ru"
+utm_$document,xmlhttprequest,queryprune=|utm_,domain=4pda.ru|auto.ru|autonews.ru|championat.com|esquire.ru|gazeta.ru|goha.ru|instagram.com|interfax.ru|ivi.ru|iz.ru|kommersant.ru|kp.by|kp.kg|kp.kz|kp.md|kp.ru|kurs.com.ua|lenta.ru|livejournal.com|m24.ru|mail.ru|moslenta.ru|motor.ru|newstube.ru|nv.ua|rambler.ru|rbc.ru|rg.ru|ria.com|riafan.ru|rt.com|rueconomics.ru|sovsport.ru|sport-express.ru|sportrbc.ru|sports.ru|svpressa.ru|tass.ru|tribuna.com|tut.by|tvzvezda.ru|vz.ru|wtftime.ru|www.1tv.ru
 Error: "Unknown modifier: queryprune=|utm_" in the rule: "utm_source=horoscopes$document,xmlhttprequest,queryprune=|utm_"
 utm_source=horoscopes$document,xmlhttprequest,queryprune=|utm_
 Error: "Unknown modifier: queryprune=|utm_" in the rule: "utm_source=hotline$document,queryprune=|utm_"
 utm_source=hotline$document,queryprune=|utm_
 Error: "Unknown modifier: queryprune=|utm_" in the rule: "utm_source=kurs_com_$document,queryprune=|utm_"
 utm_source=kurs_com_$document,queryprune=|utm_
+Error: "Unknown modifier: queryprune=|" in the rule: "utm_source=market.yandex.$document,queryprune=|"
+utm_source=market.yandex.$document,queryprune=|
 Error: "Unknown modifier: queryprune=|utm_" in the rule: "utm_source=rambler.ru$document,queryprune=|utm_"
 utm_source=rambler.ru$document,queryprune=|utm_
 Error: "Unknown modifier: queryprune=|utm_" in the rule: "utm_source=rauto$document,xmlhttprequest,queryprune=|utm_"
@@ -106,5 +162,9 @@ Error: "Unknown modifier: queryprune=|utm_" in the rule: "utm_source=rweekend$do
 utm_source=rweekend$document,xmlhttprequest,queryprune=|utm_
 Error: "Unknown modifier: queryprune=|utm_" in the rule: "utm_source=rwoman$document,xmlhttprequest,queryprune=|utm_"
 utm_source=rwoman$document,xmlhttprequest,queryprune=|utm_
+Error: "Unknown modifier: queryprune=|" in the rule: "utm_source=topadvert$document,queryprune=|"
+utm_source=topadvert$document,queryprune=|
+Error: "Unknown modifier: queryprune=|utm_" in the rule: "utm_source=yxnews&utm_$document,queryprune=|utm_"
+utm_source=yxnews&utm_$document,queryprune=|utm_
 Error: "Unknown modifier: queryprune=|frommail=1" in the rule: "||mail.ru^*frommail=1$document,queryprune=|frommail=1,domain=mail.ru"
 ||mail.ru^*frommail=1$document,queryprune=|frommail=1,domain=mail.ru

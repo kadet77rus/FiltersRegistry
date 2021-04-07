@@ -43,8 +43,8 @@
 ||bcastgw.livebox.cz/TA3_VOD_COM/
 ||cdr.cz/sites/default/files/_cdr_branding/branding.jpg
 ||cdn.cpex.cz^
+||cdn.dopc.cz/adb$xmlhttprequest
 ||cviceni-doma.cz/images/*banner
-||cztorrent.net/images/bannery/
 ||diit.cz/sites/default/files/_cdr_branding/branding.jpg
 ||digitalnitelevize.cz/obrazky/reklamni_odkazy/
 ||drbna.cz/templates/drbna-2019/ads/modal.js$script
@@ -63,6 +63,7 @@
 ||jiskra-benesov.cz/images/branding/
 ||jiskra-benesov.cz/webloader/jsloader-*.js
 ||js.tipcars.com/js/*/_view/amalker/amalker.js
+||krimi-plzen.cz/media/partners/
 ||kurzy.cz/e/adv?
 ||lamer.cz/images/bg*.jpg
 ||libise.eu/r/
@@ -71,17 +72,20 @@
 ||mamincinyrecepty.cz/images/banner
 ||motorkari.cz^$subdocument
 ||mrk.cz/images/inz/
+||parabola.cz/img_menu/*_01.$image
 ||pornuj.cz/files/ntva.php
 ||presentation.lmc.cz/aliance/
 ||prvnizpravy.cz/repository/banner
 ||reklama.warforum.cz^
 ||romea.cz/images/servis/banner
 ||ronnie.cz/cache/bannery/
+||ssp.seznam.cz^
 ||stat.novinky.cz^
 ||stat.sport.cz^
 ||stat.super.cz^
 ||stobklub.cz/images/banners/maintop.jpg
 ||uschovna.cz/branding
+||vascak.cz/data/img/adblock.png$image
 ||videoad.cz^
 ||warforum.cz/ads/$image
 ||wesa.cz/banner/
@@ -93,6 +97,7 @@
 ||adb.azet.sk^
 ||api-exponea.o2.sk^
 ||autobazar.eu/__branding/
+||bannersector.sector.sk^
 ||bmwklub.sk/images/banners/
 ||cucaj.sk/images/bannery/
 ||cucaj.sk/Themes/cucaj3/images/bg/bg*.jpg
@@ -210,7 +215,6 @@
 @@||www.top-reklama.sk^$~third-party
 @@||warforum.cz/ads.js
 @@||api.youradio.cz/v2/ads/preroll$xmlhttprequest
-@@||zive.cz^$generichide
 !
 ! ---------- Czech Whitelisted hiding rules ---------- !
 !
@@ -249,6 +253,7 @@ centrumpravnejpomoci.sk#@#.wp_bannerize
 ###zivefirmy
 ##.adform-adbox
 ##.bx-leaderboard
+##.cnc-ads
 ##.etarget
 ##.hp-advert
 ##.jobscz
@@ -302,13 +307,8 @@ cesky-jazyk.cz##.heurekaIframeHeader
 cnews.cz##div#td-outer-wrap > div.td-container
 cnn.iprima.cz##div[id^="sas"]
 computerworld.cz##.ad-obal
-ctrlv.cz,ctrlv.sk##div[id^="adb"]
-cztorrent.net###banner_header
-cztorrent.net###banner_skyscraper_right
-cztorrent.net###bnr_header
-cztorrent.net###bnr_middle
-cztorrent.net###bnr_skyscraper_right
-cztorrent.net###hracky
+czechcrunch.cz##div[id^="czech-"]
+databazeknih.cz##.r-main
 denik.cz##div[class^="reklama"]
 diit.cz,cdr.cz###pr-prace-blok-view
 diit.cz,cdr.cz##div[class*="openx-async"]
@@ -333,6 +333,7 @@ euro.cz##div[id^="ad-leaderboard"]
 eurogamer.cz##.advert
 evropa2.cz##.ads
 livesport.cz###box-over-content-a
+login.szn.cz###ad
 lupa.cz,root.cz##.design-box--jobs
 lupa.cz,root.cz##.design-advert
 ewrc.cz###invelt
@@ -347,7 +348,6 @@ firstclass.cz###stOverlay
 firstclass.cz##.promobox
 forum.root.cz##.body_message--ad
 fotoaparat.cz##div._banner
-games.tiscali.cz##.bbtitle
 grunex.com##[class*="sda"]:not(.post-content)
 hcdukla.cz##div.bottom-partners
 hcmotor.cz##div.container.partners
@@ -370,6 +370,8 @@ kladenskelisty.cz##.rleft
 kladenskelisty.cz##.rright
 kladenskelisty.cz##.tree
 kniha.cz##div[id^="banner"]
+krimi-plzen.cz##a[rel="sponsored"]
+krimi-plzen.cz##[class*="partner"]
 kupi.cz##.top_background
 lamer.cz,moda.cz##.square
 letemsvetemapplem.eu###branding_conts
@@ -405,6 +407,8 @@ onlajny.com###banner-top-four
 onlajny.com###sportObchodBanner
 onlajny.com##div.bannerHolderZapasRight
 osel.cz##.right
+parabola.cz#?#h3:-abp-contains(/^Reklama$/)
+parabola.cz##div[style^="float:left;width:468px;"] + img[src^="data:image/gif;base64,"]
 pravidla.cz##.advtick
 pravopisne.cz,pravopisne.sk##.advert
 primat.cz##a[class^="levakolejroku"]
@@ -434,7 +438,7 @@ super.cz##div.ad
 super.cz##a[data-dot="hp_pozadi"]
 super.cz##a[data-dot="c_pozadi"]
 tipcars.com##.amalker
-tiscali.cz##.box-offer
+tiscali.cz##.bbtitle
 titulky.com###bnx300x300
 titulky.com##A[onclick^="openAd"]
 topzine.cz###vyjizdeciBoxikDiv
@@ -460,7 +464,6 @@ zena-in.cz##div.site-reklama
 zing.cz##a[id^="rek_link"]
 zing.cz##div.jeg_ad
 zive.cz,mobilmania.cz,autorevue.cz,e15.cz,maminka.cz##div.sky-wrapper
-zive.cz,mobilmania.cz,autorevue.cz,e15.cz,maminka.cz##.ads
 zive.cz,mobilmania.cz,autorevue.cz,e15.cz,maminka.cz###content-lead
 !
 ! ---------- Slovak Site Specific Element Hiding Rules ---------- !
@@ -521,11 +524,13 @@ pctuning.tyden.cz#?#div.moduletable:-abp-has(div[id^="AdTrack"])
 ! ---------- uBlock Extended filters ---------- !
 !
 aktuality.sk#%#//scriptlet('ubo-aeld.js', 'load', 'ad')
+||aktualne.cz^$csp=child-src *
 ||a.cele.cz^$third-party
 cdr.cz,diit.cz#$#body { background-image: none !important; padding-top: 0 !important; }
 csfd.cz#$##page-wrapper { border-top-width: 0px !important; }
 csfd.cz#%#//scriptlet('ubo-set.js', 'CSFD.Ads.adblock', 'falseFunc')
 csfd.cz#%#//scriptlet('ubo-acis.js', '$', 'Ads')
+ctrlv.link#%#//scriptlet('ubo-aopr.js', 'adsAllowed')
 drbna.cz#%#//scriptlet('ubo-acis.js', '$', 'fancyBanner')
 ||echo24.cz^$csp=child-src *
 games.tiscali.cz#%#//scriptlet('ubo-aeld.js', 'load', 'AdWrapper')
@@ -545,10 +550,11 @@ navratdoreality.cz#%#//scriptlet('ubo-aeld.js', 'ended')
 navratdoreality.cz#%#//scriptlet('ubo-nobab.js')
 onlajny.com#%#//scriptlet('ubo-acis.js', '$', 'PartnerRedirectAction')
 ||r.i0.cz^$third-party,image,redirect=1x1-transparent.gif
+root.cz#%#//scriptlet('ubo-set.js', 'Gallery.prototype.setAdsForGallery', 'noopFunc')
 rychlost.cz,rychlost.sk#%#//scriptlet('ubo-nano-sib.js', 'ntmt_retest_btn_countdown_do', '1000')
 sauto.cz#%#//scriptlet('ubo-nano-stb.js', 'vendor-load', '3000')
 sector.sk,kinema.sk#$##frs { margin-top: 100px !important; }
-search.seznam.cz,clanky.seznam.cz#$?#.Result--organic:has(*:matches-css(background-image: /svg/):not(:matches-css(height: /^0/))) { remove: true; }
+search.seznam.cz,clanky.seznam.cz#$?#.Result--organic:not(:has([data-dot-data])) { remove: true; }
 super.cz#%#//scriptlet('ubo-ra.js', 'style', 'body')
 svetandroida.cz#%#//scriptlet('ubo-aopr.js', 'detectAdBlocker')
 titulky.com#%#//scriptlet('ubo-acis.js', '$', 'head')
@@ -561,6 +567,12 @@ youradio.cz#%#//scriptlet('ubo-nofab.js')
 ||media.actve.net/sads/$media,redirect=noopmp3-0.1s,domain=youradio.cz
 ||redirector.gvt1.com/videoplayback/id/$media,domain=youradio.cz,redirect=noopmp4-1s
 zing.cz#$#div.jeg_topbar { margin-bottom: 0px !important; }
+zive.cz#%#//scriptlet('ubo-acis.js', '$', 'zivfull')
+@@||seznamzpravy.cz^$generichide
+!#if env_firefox
+@@.png$xmlhttprequest,domain=seznamzpravy.cz
+!#endif
+seznamzpravy.cz#%#//scriptlet('ubo-nosiif.js', 'checkRods')
 ! Aborting several different versions of adbDetect
 idnes.cz,novinky.cz,aktualne.cz,sport.aktuality.sk,reflex.cz,zive.cz,mobilmania.cz,e15.cz,blesk.cz,ahaonline.cz,super.cz,auto.cz,maminka.cz,autorevue.cz,vareni.cz,osobnosti.cz,sport.cz,lidovky.cz,iprima.cz,kupi.cz,kinobox.cz,cnews.cz,zeny.cz,expres.cz,tiscali.cz,sport.cz,extra.cz,onetv.cz,dama.cz,g.cz,chip.cz,mojecelebrity.cz,spisovatele.cz,modnipeklo.cz,info.cz,lupa.cz,karaoketexty.cz,hnonline.sk,emimino.cz,vitalion.cz,mojezdravi.cz,abicko.cz,arome.cz,labuznik.cz,fights.cz,nasepenize.cz,euro.cz,televizeseznam.cz#%#//scriptlet('ubo-acis.js', 'atob')
 idnes.cz,novinky.cz,aktualne.cz,sport.aktuality.sk,reflex.cz,zive.cz,mobilmania.cz,e15.cz,blesk.cz,ahaonline.cz,super.cz,auto.cz,maminka.cz,autorevue.cz,vareni.cz,osobnosti.cz,sport.cz,lidovky.cz,iprima.cz,kupi.cz,kinobox.cz,cnews.cz,zeny.cz,expres.cz,tiscali.cz,sport.cz,extra.cz,onetv.cz,dama.cz,g.cz,chip.cz,mojecelebrity.cz,spisovatele.cz,modnipeklo.cz,info.cz,lupa.cz,karaoketexty.cz,hnonline.sk,emimino.cz,vitalion.cz,mojezdravi.cz,abicko.cz,arome.cz,labuznik.cz,fights.cz,nasepenize.cz,euro.cz,televizeseznam.cz#%#//scriptlet('ubo-acis.js', 'String.fromCharCode')

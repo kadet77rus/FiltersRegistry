@@ -1,7 +1,7 @@
 !
-! Checksum: eJS4O3dbMOmOjmbTOiUzUg
+! Checksum: 77Ps2LrY+CRPCWqENG0TNg
 ! Title: EasyList Hebrew
-! Last modified: 08 Apr 2021 20:50 UTC
+! Last modified: 02 Apr 2021 12:44 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/EasyListHebrew
 ! Licence: https://easylist.to/pages/licence.html
@@ -835,7 +835,7 @@ zegvid.net##*
 @@/advertisement.$script,xmlhttprequest,domain=haaretz.co.il|mouse.co.il|themarker.com
 @@/dfp/*$script,xmlhttprequest,domain=haaretz.co.il|mouse.co.il|themarker.com
 @@?pageurl=$xmlhttprequest,third-party,domain=sdarot.casa|sdarot.dev|sdarot.life|sdarot.pm|sdarot.pro|sdarot.rocks|sdarot.services|sdarot.space|sdarot.today|sdarot.tv|sdarot.video|sdarot.website|sdarot.work|sdarot.world
-@@||2mdn.net/instream/video/client.js$domain=mako.co.il|ynet.co.il
+@@||2mdn.net/instream/video/client.js$domain=mako.co.il
 @@||a7.org/Combine.js$script,domain=inn.co.il
 @@||a7.org/cab/*.min.js$script,domain=inn.co.il
 @@||a7.org/scripts/Forecast.js$script,domain=inn.co.il
@@ -843,8 +843,8 @@ zegvid.net##*
 @@||a7.org/scripts/mosaic_$script,domain=inn.co.il
 @@||admedia.com/images/cross_channel_arrows.png$image,domain=isramedia.net
 @@||ads.yad2.co.il/adPic.png$image
-@@||adservice.google.co.il/adsid/integrator.js?$script,domain=13news.co.il|13tv.co.il|ynet.co.il
-@@||adservice.google.com/adsid/integrator.js?$script,domain=13news.co.il|13tv.co.il|ynet.co.il
+@@||adservice.google.co.il/adsid/integrator.js?$script,domain=13news.co.il|13tv.co.il
+@@||adservice.google.com/adsid/integrator.js?$script,domain=13news.co.il|13tv.co.il
 @@||adtest.advsnx.net^*?$xmlhttprequest,domain=playern.sport5.co.il
 @@||akamai.advsnx.net/CDN/$domain=kikar.co.il
 @@||akamai.advsnx.net/CDN/arutz7/$script
@@ -866,7 +866,6 @@ zegvid.net##*
 @@||bipbip.co.il/Images/Ads/$~third-party
 @@||bipbip.co.il/Style/Ads.css
 @@||bitsngo.net/widget-scripts/zoomd.widget.logger.$script
-@@||cdn.flowplayer.com/releases/native/stable/plugins/google-analytics.min.js$script,domain=ynet.co.il
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/$script,domain=hamal.co.il|sheee.co.il|walla.co.il
 @@||cdnwiz.com/ads.js$xmlhttprequest
 @@||clalit.co.il/AdImages
@@ -909,7 +908,6 @@ zegvid.net##*
 @@||mouse.co.il^$xmlhttprequest,domain=haaretz.co.il|mouse.co.il|themarker.com
 @@||old-games.org^$document
 @@||one.co.il^$xmlhttprequest
-@@||pagead2.googlesyndication.com/omsdk/$script,domain=ynet.co.il
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=sport5.co.il
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=isramedia.net|mako.co.il|sport5.co.il
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=pitaronfree.blogspot.co.il|pitaronfree.blogspot.com
@@ -1059,6 +1057,7 @@ animals.walla.co.il,astrology.walla.co.il,b.walla.co.il,buzzit.walla.co.il,cars.
 animals.walla.co.il,astrology.walla.co.il,b.walla.co.il,buzzit.walla.co.il,cars.walla.co.il,celebs.walla.co.il,e.walla.co.il,elections.walla.co.il,euro.walla.co.il,fashion.walla.co.il,finance.walla.co.il,food.walla.co.il,healthy.walla.co.il,home.walla.co.il,judaism.walla.co.il,kids.walla.co.il,mag.walla.co.il,movies.walla.co.il,mundial.walla.co.il,nadlan.walla.co.il,news.walla.co.il,nick.walla.co.il,olympics.walla.co.il,sports.walla.co.il,tags.walla.co.il,tech.walla.co.il,travel.walla.co.il,tv-guide.walla.co.il,usaelections.walla.co.il,viva.walla.co.il,vod.walla.co.il,weather.walla.co.il,www.walla.co.il##[href^="https://www.democratv.org"]
 !
 0404.co.il##.sidebannerads
+20il.co.il##.close-ad
 aiwa.co.il##.bigbnr
 ashdodnet.com##.Banner
 ashdodnet.com##div[style="height: 78px; overflow: hidden; width: 510px;"]

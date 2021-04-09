@@ -1,8 +1,8 @@
 !
-! Checksum: Ys9FsJtc7ef3lx64l7ATUQ
-! OriginalVersion: 202104091341
+! Checksum: pJiaOMNg9RiY/ZI/CSY66Q
+! OriginalVersion: 202104071101
 ! Title: EasyList Spanish
-! Last modified: 09 Apr 2021 13:41 UTC
+! Last modified: 07 Apr 2021 11:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -490,10 +490,6 @@ xunta.gal#@#div[id^="anuncio"]
 ||soawhoaw.com^$third-party
 ||qbgrlltue.com^$third-party
 ||ctromgvroh.com^$third-party
-||sqnwmwnwok.com^$third-party
-||ndroip.com^$third-party
-||encouragementstringsborn.com^$third-party
-||harassinganticipation.com^$third-party
 ! *** easylistspanish:easylistspanish/easylistspanish_adservers_popup.txt ***
 ||acortar.net^$popup,third-party
 ||authorne.info^$popup,third-party
@@ -544,7 +540,6 @@ xunta.gal#@#div[id^="anuncio"]
 ||putstairboor.com^$third-party
 ||significantlyentering.com^$popup,third-party
 ||rainingvital.com^$popup,third-party
-||dlxrlc2ni2.com^$popup,third-party
 ! *** easylistspanish:easylistspanish_adult/adult_adservers.txt ***
 broced.co^$third-party
 ||cosmeticsgenerosity.com^$third-party
@@ -1156,7 +1151,6 @@ $third-party,xmlhttprequest,domain=animeflv.net|descargasnsn.com|divxatope.com|d
 ||diarioresponsable.com/images/triodos_2019-06.jpg
 ||diarioresponsable.com/images/banners
 ||vertelenovelasonline.com/wp-content/uploads/*/Untitled-design-*.gif
-||verepeliculas.com/dowload/MusicaBANNER.gif^
 ! Anti-Adblock
 ||epasatiempos.es/js/af.js
 ||epasatiempos.es/js/dab.js
@@ -1230,7 +1224,6 @@ $popup,third-party,domain=divxtotal.co|mejortorrentt.net|yourupload.com|embedsit
 ||pornoplay.online/tarot*.webp
 ||mundosexanuncio.com/img_es/banners/
 ||pinklabel.com/tools/live-banners^$subdocument,domain=poringa.net
-||blogspot.com/-*/BNO-300x250.gif^$domain=erospanish.com
 ! *** easylistspanish:easylistspanish_adult/adult_specific_block_popup.txt ***
 !------------------------Specific element hiding rules------------------------!
 ! *** easylistspanish:easylistspanish/easylistspanish_specific_hide.txt ***
@@ -2165,9 +2158,6 @@ hoyaragon.es##.addg
 agma.io###advertDialog1
 todomercadoweb.es##div[style="height:270px; padding: 10px 0;"]
 diarioresponsable.com##.banneritem
-highstream.tv##.cover
-verepeliculas.com##div[class^="ano_"]
-rainanime.co,verepeliculas.com##.fake_player
 ! Site Specific filters (used with $generichide)
 eleconomista.es##a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"]
 ! Anti-Adblock
@@ -2184,6 +2174,7 @@ cliver.to##div[data-name="parent-element"]
 kairosweb.com##div[class*="banner-"]
 kairosweb.com##.spu-bg
 kairosweb.com##.spu-box
+rainanime.co##.fake_player
 ! *** easylistspanish:easylistspanish_adult/adult_specific_hide.txt ***
 teatroporno.com###a-insd
 vercomicsporno.com###afi

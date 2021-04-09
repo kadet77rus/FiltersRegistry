@@ -1,8 +1,8 @@
 !
-! Checksum: eAuUsUAL10pDHlN4djXXGg
-! OriginalVersion: 202104091340
+! Checksum: Ox42GB/Q667h55+ZzUm1Gw
+! OriginalVersion: 202104071100
 ! Title: RU AdList: Counters
-! Last modified: 09 Apr 2021 13:40 UTC
+! Last modified: 07 Apr 2021 11:00 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -222,7 +222,6 @@ _pagespeed_beacon?
 ||analysis.fi^$third-party
 ||analytics.getaim.info^$third-party
 ||analytics.goha.info^
-||analytics.google.com/g/collect?
 ||analytics.tiktok.com^
 ||anti-ban.ucoz.ru^$third-party
 ||api-analytics.rozetka.com.ua/js/exponea.min.js
@@ -395,9 +394,7 @@ _pagespeed_beacon?
 ||goha.ru^*&geodata=
 ||google-analytics.com/collect?
 ||google-analytics.com/r/collect?
-||google.*/ads/ga-audiences?v=
 ||googleadservices.com^$third-party
-||googleoptimize.com^$third-party
 ||googletagmanager.com/gtag/$third-party,domain=~zakon.kz
 ||gostats.$third-party
 ||goto.kz/img.php?
@@ -915,7 +912,7 @@ www.rambler.*###main > div[class]:not([id]) > :first-child[style]:not(div):not([
 www.rambler.*##body[style*="position:"] > script[src] + div:not([id])
 ||browserleaks.com/proxy$csp=script-src 'unsafe-inline'
 ||google-analytics.com^$domain=cdnvideo.ru|igromania.ru|rambler.ru
-||googletagmanager.com/gtm.js$domain=censor.net|dtf.ru|gazeta.ru|lifehacker.ru|livejournal.com|motor.ru|nur.kz|rambler.ru|rutube.ru|tjournal.ru|tut.by|vc.ru
+||googletagmanager.com/gtm.js$domain=dtf.ru|gazeta.ru|lifehacker.ru|livejournal.com|motor.ru|nur.kz|rambler.ru|rutube.ru|tjournal.ru|tut.by|vc.ru
 ||kp.yandex.net/images/bnnr/brand/$domain=www.kinopoisk.ru
 ||kp.yandex.net/js/brand$domain=www.kinopoisk.ru
 ||rcm.rambler.ru^$domain=rambler.ru

@@ -1,8 +1,8 @@
 !
-! Checksum: 7RY0mMYPN+ENBtk4hFlE/A
-! OriginalVersion: 202104091341
+! Checksum: rc79nC5Q3xFfTPlTijNvsg
+! OriginalVersion: 202104071111
 ! Title: EasyList Polish
-! Last modified: 09 Apr 2021 13:41 UTC
+! Last modified: 07 Apr 2021 11:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html

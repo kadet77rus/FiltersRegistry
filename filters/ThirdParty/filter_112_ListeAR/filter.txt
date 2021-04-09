@@ -1,6 +1,6 @@
 !
-! Checksum: 09CFUB3LRt6qaNaNX88Rxw
-! OriginalVersion: 202104091340
+! Checksum: 23BPQOuGnWE3v7pNTWIQRQ
+! OriginalVersion: 202104071100
 ! Title: Liste AR
 ! Expires: 3 days
 ! Description: القائمة العربية لمانع الشرائط الإعلانية آدبلوك بلس، مكمِّلة للقائمة الفرنسية و الإنجليزية

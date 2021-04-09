@@ -1,8 +1,8 @@
 !
-! Checksum: 0TfmrbvHEB8Tr86vB2hhfQ
-! OriginalVersion: 202104071100
+! Checksum: tEgtbxUMOHQDL4kf7Yh6Pg
+! OriginalVersion: 202104091340
 ! Title: Adblock Warning Removal List
-! Last modified: 07 Apr 2021 11:00 UTC
+! Last modified: 09 Apr 2021 13:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html

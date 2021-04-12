@@ -1596,6 +1596,9 @@ teleboy.ch#@#.adWrapper
 !
 ! Extended CSS rules
 !
+! netzwelt.de - left-over main page and ad at end of download page
+netzwelt.de#?##article > div[class] > div[class]:not([class*="pos-"]):has(>.ad-trigger)
+netzwelt.de#?##download > div[class] > div[class]:has(> span:contains(ANZEIGE))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79741
 wiesbadenaktuell.de#?#div[class^="inside"] > .news-container:has(> div > .anzeige)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79330
@@ -1735,9 +1738,8 @@ schnittberichte.com#?#.main__aside > div[style]:contains(amazon-angebote) + div
 schnittberichte.com#?#.wrapper__content > div[style] > div[style]:has(> div[style] > a[href*="out.php"])
 ! web.de,gmx.net - left-over in article with gallery
 web.de,gmx.net#?#.left-col__bottom:has(> div[data-adservice-param-tagid])
-! saechsische.de - ads on main page and in article
-saechsische.de#?#.article-list-container > .article-box:has(> .landingpage > span:contains(Anzeige))
-saechsische.de#?#.article-content > .article-fill:has(> .landingpage > span:contains(Anzeige))
+! https://github.com/AdguardTeam/AdguardFilters/issues/79974
+saechsische.de#?#article:has( > div > .article-section--nad > span:contains(Anzeige))
 ! stuttgarter-zeitung.de - ads on main page
 stuttgarter-zeitung.de#?#.brickgroup > .mod-teaser:has(> .m-mmr-teaser > div[class] > a > .sponsored-by)
 stuttgarter-zeitung.de#?#.brickgroup > .contentbrick:has(> div[id^="traffective-ad-"])
@@ -2536,6 +2538,9 @@ wiesbadenaktuell.de,rauchmeldungen.de,simfans.de,wn.de,cosmopolitan.de,wallstree
 ! ##.id-Container--proBEEP
 hallo-muenchen.de,az-online.de,lokalo24.de,rosenheim24.de,kreiszeitung.de,nordbuzz.de,mannheim24.de,merkur.de,oktoberfest-live.de,tz.de##.id-Container--proBEEP
 !
+netzwelt.de##.ad-host
+n-tv.de##.extcontent--amazon
+duden.de##.medrec
 goettinger-tageblatt.de##.pdb-adplacement-container
 goettinger-tageblatt.de,waz-online.de,maz-online.de,ostsee-zeitung.de,dnn.de###gpt_superbanner
 freundin.de##article[role="article"][data-internal-url][about]:not([about*="freundin.de"])
@@ -5006,6 +5011,8 @@ homad-global-configs-eu-fra.schneevonmorgen.com.s3.amazonaws.com/*/config.json$r
 !###TEMPORARY###
 !###############
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/79974
+saechsische.de#@?#article,div:-abp-has( > div > .article-section--nad > span:-abp-contains(Anzeige))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79115
 tarnkappe.info#@#.category-advertorial
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74986
@@ -6180,10 +6187,14 @@ gofeminin.de,kochbar.de#@#a[href^="https://adclick.g.doubleclick.net/"]
 ||sonnige-aussichten.ch/_img/ad/$third-party
 ||sorgenlos.de^*/banner/
 ||space4free.net/images/banner/$third-party
+||sprachenlernen24-download.de/banner/
+||starting6.de/dyn_banner/$third-party
 ||startparadies.de/banner/$third-party
 ||stroeerdigitalgroup.de/metatag/$third-party
+||stroeerdp.de^*/affiliateId
 ||suchebiete.com/bilder/allgemein_kleinanzeigen.png
 ||suedtirol.live/delivery.js
+||sunpepper.de/shop/banner/$third-party
 ||tortuga.services^*/affiliate/$domain=~travelbook.de
 ||treff-mich.org/bilder/$third-party
 ||twincdn.com/special/special_script.js
@@ -6215,28 +6226,6 @@ gofeminin.de,kochbar.de#@#a[href^="https://adclick.g.doubleclick.net/"]
 ||promotion.mmxlive.com^
 ||publisher.outtra.com^$third-party
 ||publisher.spoods.de^$third-party
-||spieleprinz.com/?$subdocument,third-party
-||spieleprinz.de/?$subdocument,third-party
-||spielotheka.de/layer.js
-||sprachenlernen24-download.de/banner/
-||spwear.de/images/banner/$third-party
-||star-toplist.com/votebanner.png$third-party
-||starting6.de/dyn_banner/$third-party
-||strato.de/banner/$third-party
-||stroeerdp.de^*/affiliateId
-||sug.ag/banner/$third-party
-||sunpepper.de/shop/banner/$third-party
-||superwin.de^$subdocument,third-party
-||superwin.de^*/anzeige.jpg
-||syteapi.com/assets/imajs.js
-||t-shirt-drucker.de/banner/$third-party
-||talkplus.de/banner/$third-party
-||tarifdoc.de^$subdocument,third-party
-||tarifliste.com^$subdocument,third-party
-||tele.net/shoppingbanner.php?
-||templatebase.de/partner_show_banner.php$third-party
-||tinyprice.de/aktion/$third-party
-||tnm.de/wa/ad?
 ||tnt-game.com^*/banner/$third-party
 ||topdeals.de/ug-banner/$third-party
 ||totalokal.de/imgs/btn_$third-party
@@ -6320,7 +6309,6 @@ gofeminin.de,kochbar.de#@#a[href^="https://adclick.g.doubleclick.net/"]
 ||sunmaker.com/?a_aid=$popup
 ||tagoria.net/?ref=$popup,third-party
 ||taps.io^*/sms?__ref=$popup
-||tarifliste.com/index.php?log=$popup,third-party
 ||teufelchens.xxx/trade_in/$popup,third-party
 ||tuneclub.de^*/lp.pl?$popup
 ||vavoo.tv/promo/$popup,third-party
@@ -8466,6 +8454,7 @@ ibash.de##tr > td[valign="top"]:first-child + td[width="15"] + td[width="186"][v
 favicon-generator.de##tr:first-child:last-child > td[align="left"][width="150"][valign="top"]:first-child + td[align="center"] + td[align="left"][width="150"][valign="top"]:last-child
 ww3.cad.de##tr:first-child:last-child > td[valign="top"]:first-child + td[width="152"][valign="top"][align="center"]:last-child
 gmx.net,web.de##tr[data-component="MessageListAdRow"]
+gmx.ch,gmx.net,web.de##tr[data-component="MessageListSpecialRow"]
 finanzen.net###news-contentads
 focus.de###tfm_admanagerTeaser
 jetzt.de##.ad__template

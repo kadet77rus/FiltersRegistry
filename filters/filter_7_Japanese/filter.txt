@@ -134,8 +134,10 @@
 ! Eimg.jp
 ||adingo.jp.eimg.jp^
 !
+||smv.to^$third-party
+||geniee.jp^$third-party
 ||ad.angel-live.com^
-||rss-loader.com^^$third-party
+||rss-loader.com^$third-party
 ||reajyu.net^$third-party
 ||gsspcln.jp^
 ||ads-lite.net^$third-party
@@ -883,7 +885,8 @@ avgle.com#%#AG_onLoad(function() { closeAd(); });
 !-------------------
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79889
-pokemon-matome.net#$##content11, #wrap-main { padding-top:0 !important; }
+pokemon-matome.net#$##content11 { padding-top:0 !important; }
+pokemon-matome.net#$##wrap-main { padding-top:0 !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78500
 animedeck.jp#$##loading { z-index: auto !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76774
@@ -997,6 +1000,11 @@ zigsow.jp,navitime.com,cazual.tv,crank-in.net,mantan-web.jp,millymilly.jp,rurubu
 !
 ||feed.mikle.com^$domain=blog.livedoor.jp|crx7601.com|fate-rpg.jp|gadgetlife2ch.blomaga.jp|gtoys.blog.fc2.com|h1g.jp|hdouga.com|ibarakinews.jp|obutu.com|totalwar.doorblog.jp|xn--bckadddb2a0d4dnc8dwhngdtb58aya0l4a2om843g5npczp7dwh5g.com|xn--cckea5a6cidcbh6ce7ghug17a2ge3aht3nwigef51658aw7kd.com
 !
+dic.nicovideo.jp###dic_sp_300x250_north_up
+automesseweb.jp##div[id^="logly-lift-"]
+gyao.yahoo.co.jp##.yads-overlay
+gyao.yahoo.co.jp##div[class^="timeline-ad_timelineAd__"]
+4610.adultav55.com##.belowVideoBanner
 pokemon-matome.net###header_rssbox
 pokemon-matome.net##.basehtml_side
 beelzeboulxxx.com##.article-body-more > table[width="125"]
@@ -1314,6 +1322,7 @@ famitsu.com##.banner-lg-rect-haf-page
 famitsu.com##.banner-footer-rect-container
 anonymous-post.mobi##ad.widget_custom_html
 ||popin.cc/popin_video6_ads-min.js
+syosetu.org##div[id^="\31"][style*="height"][style*="width"]
 syosetu.com##div[class^="koukoku"]
 ||jartic.or.jp/d/banner/substitute/$subdocument
 asagei.com##.ad-middle-wrap
@@ -2115,6 +2124,8 @@ gtoys.blog.fc2.com###adright
 !
 ! White list. Fixing filtration errors(false-positive)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/80026
+@@||korona.co.jp/Banner/$image
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79549
 @@||accesstrade.net/m/m_img/$image,domain=mamastar.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/79181

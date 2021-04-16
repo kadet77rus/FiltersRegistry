@@ -227,6 +227,13 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||visilabs.com^$third-party
 ||visilabs.net^$third-party
 !
+||x-storage-a1.cir.io^
+||didna.io^$third-party
+||log.nordot.jp^
+||solutionshindsight.net^$third-party
+||d.wi-fi.ru^$third-party
+||instapagemetrics.com^$third-party
+||mas.protecmedia.com^$third-party
 ||t.rainide.com^
 ||durationmedia.net^$third-party
 ||stats.myangular.life^
@@ -254,6 +261,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ||sitescout.com^$third-party
 ||ad-log.dable.io^
 ||pensebig.com.br^$third-party
+||tracking.m6r.eu^$third-party
 ||analytics.ratopanda.com^$third-party
 ||suite*.linximpulse.net^$third-party
 ||retargeter.com.br^$third-party
@@ -3385,6 +3393,7 @@ journal-plaza.net#?#.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч
 ! Admiral domains
 ! These domains are used for tracking purposes according to the data that is being sent there.
 ! More info: https://getadmiral.com/products/measure
+||ticketaunt.com^$third-party
 ||warmafterthought.com^$third-party
 ||fumblingform.com^$third-party
 ||aloofvest.com^$third-party
@@ -4537,6 +4546,9 @@ nethunt.com/api/v1/track/email/$image
 ! Disabled in DNS filter
 ||telemetry.mozilla.org^
 !
+||track.wattpad.com^
+||stat.download.xunlei.com^
+||dmp.citiservi.es^
 ||crta.metro.co.uk^
 ||dtrace.nvidia.com^
 ||temptation.ad.nl^
@@ -6620,6 +6632,16 @@ _tracking.php?b=
 !
 /analytics.js$domain=bataryapil.com|journey.com.tr|tozlu.com|elleshoes.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com
 !
+||gamestar.de/*/index.cfm?event=tracking:
+news.mynavi.jp##.articleList-along
+news.mynavi.jp##.articleList-attention
+||t.rentcafe.com/rctv*.min.js
+||static.talpanetwork.com/prod/js/components/talpa-analytics/
+||tasclap.jp/static/logger.js
+||dubox.com/statistics^
+||fastcdn.co/js/sptw.js
+||cloud.weborama.design/nonio.js
+||comunidade.globalmediagroup.pt//tracker/tracker.ashx
 ||estore.jp/beacon/
 ||caliente.mx/integration-scripts/tracking.min.js
 ||s.cdin.me/i.php
@@ -6637,6 +6659,7 @@ _tracking.php?b=
 ||asahibeer.co.jp/tracking.js
 ||livechatinc.com/tracking.js
 ||st-hatena.com/valve/
+||info.ryte.com/analytics
 ||app.carnow.com/dealers/track_visitor
 ||app.carnow.com/dealers/visitor_info?
 ||hondacarsrockhill.com/pixall/pix-ddc-fp.min.js
@@ -6665,12 +6688,13 @@ semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
 ||cdn.thunderhead.com/one/rt/js/one-tag.js
 ||discord.com/api/v*/science
 ||fensi.plus/*/tracking/
+||tvid.in/log/logs
 ||collector.wawlabs.com/epttavm.js
 ||intersc.igaming-service.io/hltv.org.js
 ||hltv.org/scripts/hltv-tracking.js
 ||za.zalo.me/v*/brp?fts=
 ||za.zalo.me/v*/w/_zaf.gif
-/duracelltomi-google-tag-manager/*$script,domain=adexchanger.com
+/duracelltomi-google-tag-manager/*$script,domain=adexchanger.com|digiato.com
 ||api.eigene.io/rec/
 ||guj.de/js/gujTracker.js
 /tracking.js$domain=schoener-wohnen.de
@@ -6885,7 +6909,7 @@ koneta.nifty.com###custom_html-2
 ||ty90nwjc8wjt-a.akamaihd.net^$domain=nypost.com
 ||digitalgov.gov/Universal-Federated-Analytics-Min.js
 ||af.analytics.elx.cloud^$domain=arbetsformedlingen.se
-||livingtraditionally.com/wp-content/cache/busting/1/gtm-*.js
+/gtm-*.js$domain=livingtraditionally.com|myhealthgazette.com|kediportal.com
 ||newstm.in/stats?
 ||newstm.in/static/ase/at/at.js
 ||cnews.ru/inc/js/show_stat.js
@@ -8340,7 +8364,6 @@ dreamprogs.net##td[width="88"][height="31"]
 ||mail.yahoo.com/neo/splunkLogger
 ||maps.googleapis.com/*/stats.js
 ||marc-o-polo.media01.eu/view.aspx?trackid
-||markafoni.com/*/__Analytics-Tracking
 ||mc.dailymotion.com/masscast/
 ||media-allrecipes.com/assets/deployables/*/analytics.bundled.js
 ||media-imdb.com/*/js/ads/beacon-
@@ -8683,6 +8706,7 @@ link.gmapp*.net$image
 !---- Domain pecific rules ----
 !------------------------------
 !
+||indiatimes.com^$cookie=/deviceid|lgc_deviceid|_pubcid|ak_bmsc/
 ||producthunt.com^$cookie=/visitor_id|track_code|first_visit/
 ||iltalehti.fi^$cookie=sammio-bsid
 ||smartworld.it^$cookie=__mx_log
@@ -8692,6 +8716,10 @@ link.gmapp*.net$image
 ||senmanga.com^$cookie=sen_manga_session
 ||theatlantic.com^$cookie=/atl_uuid|datadome|kppid/
 ||businessinsider.com^$cookie=/traffic_src|_uetvid|^_ga_|^_sp_/
+! sophi.io
+||theglobeandmail.com^$cookie=sophiTrackerid.a05e
+||theglobeandmail.com^$cookie=sophiTrackerses.a05e
+||theglobeandmail.com^$cookie=sp_tgamid.a05e
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64976
 ||herder.de^$cookie=SC_ANALYTICS_GLOBAL_COOKIE
 ! https://forum.adguard.com/index.php?threads/31364/
@@ -8708,7 +8736,13 @@ link.gmapp*.net$image
 !---- Generic rules -----------
 !------------------------------
 !
-! https://www.parse.ly/
+! cxense.com
+! For building user profile information across all sites in the Cxense network
+$cookie=gckp
+! piano.io(tinypass)
+$cookie=__tbc
+$cookie=__pvi
+! parse.ly
 $cookie=_parsely_visitor
 $cookie=_parsely_session
 ! Tealium Universal tag
@@ -8734,6 +8768,7 @@ $cookie=utag_main
 |http*$app=com.adups.fota.sysoper|com.adups.fota
 !
 ! For apps
+||bilanx.dcard.tw^$app=com.sparkslab.dcardreader
 ||analytics.kidoz.net^
 ||track.tenjin.com^
 ||tracker.mtrtb.com^
@@ -9011,7 +9046,6 @@ $cookie=utag_main
 ||a.bitmango.com^
 ||bitmango.com/log
 ||tracking.directservices.it^
-||vortex.data.microsoft.com^
 ||onedrive-collection.device.mobileengagement.windows.net^
 ||metrics.timewarnercable.com^
 ||flurry.agentportal-*.yahoodns.net^

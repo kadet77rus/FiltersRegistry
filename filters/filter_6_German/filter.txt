@@ -2538,6 +2538,10 @@ wiesbadenaktuell.de,rauchmeldungen.de,simfans.de,wn.de,cosmopolitan.de,wallstree
 ! ##.id-Container--proBEEP
 hallo-muenchen.de,az-online.de,lokalo24.de,rosenheim24.de,kreiszeitung.de,nordbuzz.de,mannheim24.de,merkur.de,oktoberfest-live.de,tz.de##.id-Container--proBEEP
 !
+gamestar.de###dfp-masthead
+news.de##div[id^="unisterAd_"]
+tvmovie.de###dikr-responsive-ads-pb
+tvspielfilm.de##.promo-box
 netzwelt.de##.ad-host
 n-tv.de##.extcontent--amazon
 duden.de##.medrec
@@ -5639,6 +5643,7 @@ _woz_banner_vote.
 ##.werbungimthread
 ##.werbungrechtstitel
 ##.widget-werbung
+##a[aria-label="Werbelink"]
 ##a[href*=".prodtraff.com/"]
 ##a[href="https://www.focus.de/deal/focus-online-deal-mit-weltsparen-setzen-sie-jetzt-auf-zinserhoehungen-weltsparen-schenkt-ihnen-dafuer-150-euro_id_11868745.html"] > img
 ##a[href^="http://landing.fickzeit.com/?ag="]
@@ -6009,6 +6014,7 @@ gofeminin.de,kochbar.de#@#a[href^="https://adclick.g.doubleclick.net/"]
 ||banner.hosteurope.de^$third-party
 ||banner.immowelt.de^
 ||banner.upjers.com^$third-party
+||bastardsofhell.de/images/banner/$third-party
 ||baygel.de/banner/
 ||beate-uhse.com/banner/$third-party
 ||belboon.de/tracking/*.img
@@ -6127,6 +6133,7 @@ gofeminin.de,kochbar.de#@#a[href^="https://adclick.g.doubleclick.net/"]
 ||online-casino.de^$subdocument,third-party
 ||ox.comventure.de^
 ||pap-partner.flirtfair.de^$third-party
+||partner.fondsdiscount.de^
 ||partner.leguide.com^$third-party
 ||partner.maxxim.de^
 ||partner.simplytel.de^
@@ -6195,10 +6202,15 @@ gofeminin.de,kochbar.de#@#a[href^="https://adclick.g.doubleclick.net/"]
 ||suchebiete.com/bilder/allgemein_kleinanzeigen.png
 ||suedtirol.live/delivery.js
 ||sunpepper.de/shop/banner/$third-party
+||tnt-game.com^*/banner/$third-party
 ||tortuga.services^*/affiliate/$domain=~travelbook.de
 ||treff-mich.org/bilder/$third-party
+||trivago.de/de/srv/destination/js/hotel_$script,third-party
 ||twincdn.com/special/special_script.js
+||upjers.com/ext/ext.php$third-party
 ||venus-community.com/banner/$third-party
+||verleihshop.de/gfx/partner/$third-party
+||versandtarif.de^*?partnerid=$third-party
 ||vesalia.de/af.gif$third-party
 ||view.autoscout24.de^$third-party
 ||visit-x.net/001/$third-party
@@ -6206,16 +6218,20 @@ gofeminin.de,kochbar.de#@#a[href^="https://adclick.g.doubleclick.net/"]
 ||wazazu.com/js/pu_$third-party
 ||wazazu.com/pimage/bas/$third-party
 ||wazazu.com/pimage/visit-x/$third-party
+||weekli.de/widget-loader?$third-party
+||werbemittel.adisfaction.de^$third-party
+||wgfreiheit.de/fileadmin/web_banner/$third-party
 ||widget.s24.com^$third-party
 ||wien-girls.at/img/ba/$third-party
+||wm-space.youero.com^
 ||wpseo.de/banner/$third-party
 ||wpseo.de^*/banner/$third-party
-||partner.auxilis.de^$third-party
-||partner.clubandmore.de^$third-party
-||partner.cuxxu.net^$third-party
-||partner.dasoertliche-marketing.de^
+||x2.to/img/x2-rectangle.jpg
+||yogsototh.bytecamp.net^$third-party
+||zweitfondsmarkt.de/banner/$third-party
+||züri6.ch/adsman/$third-party
+||züri6.ch/banner/$third-party
 ||partner.dhl.de^$third-party
-||partner.fondsdiscount.de^
 ||partner.gewinnspiele.de^$third-party
 ||partner.gorillagaming.de^$third-party
 ||partner.stellenanzeigen.de^$third-party
@@ -6226,44 +6242,7 @@ gofeminin.de,kochbar.de#@#a[href^="https://adclick.g.doubleclick.net/"]
 ||promotion.mmxlive.com^
 ||publisher.outtra.com^$third-party
 ||publisher.spoods.de^$third-party
-||tnt-game.com^*/banner/$third-party
-||topdeals.de/ug-banner/$third-party
-||totalokal.de/imgs/btn_$third-party
-||travoya.de^*/banner/$third-party
-||trivago.de/de/srv/destination/js/hotel_$script,third-party
-||tui-connect.com/a?$third-party
-||tuifly.com/partner/$third-party
-||tuneup.de^*/affiliate/
-||tuneyourscoot.com/images/banner
-||turbo-promo.de/banners/
-||ui-portal.de/uim/*/promo/
-||ui-portal.de^*/topper.js
-||ultramailtausch.de^$subdocument,third-party
-||unicef.de/ueber-uns/bannercenter/?
-||united-lama-marketing.de/webmaster/$third-party
-||upjers.com/ext/ext.php$third-party
-||urban-media-berlin.de/pdfad/$third-party
-||verleihshop.de/gfx/partner/$third-party
-||versandtarif.de^*?partnerid=$third-party
-||vetalio.de/partner/$third-party
-||vienna.at/banner/
 ||view.ilove.de^$third-party
-||view.jamba.de^$third-party
-||viversum.de/partnerprogramm/$third-party
-||volksbank-oberberg.de/banner/$third-party
-||vorratsdatenspeicherung.de/images/akvs*.gif$third-party
-||vote4me.de^$third-party
-||w3server.eu/show.php$third-party
-||w3statistics.com/img/$third-party
-||waiwidgets-*.amazonaws.com^
-||warumzahlen.de/images/banner/$third-party
-||watchever.de^*^ifw^*^ifh^$third-party
-||watercool.de/images/wc_banner_
-||webguidez.de/test/images/
-||webspace.webhoster.de^$third-party
-||weekli.de/widget-loader?$third-party
-||werbemittel.adisfaction.de^$third-party
-||wgfreiheit.de/fileadmin/web_banner/$third-party
 ||widget.getyourguide.com^*&partner_id=$third-party
 ||widget.kaufda.com^$third-party
 ||widget.marktjagd.de^$third-party
@@ -6271,19 +6250,6 @@ gofeminin.de,kochbar.de#@#a[href^="https://adclick.g.doubleclick.net/"]
 ||widgets.cam-content.com^$third-party
 ||widgets.goldankauf123.de^
 ||widgets.mywai.de^
-||wikifolio.com/de/Modules/Infobox?partnerid=$subdocument,third-party
-||wm-space.youero.com^
-||wogibtswas.at/widget/$third-party
-||wurzelimperium.de/banner/
-||x2.to/img/x2-rectangle.jpg
-||xobor.miranus.com^
-||y.konsolenfreunde.de^
-||yogsototh.bytecamp.net^$third-party
-||youspacko.com/com/
-||zeiss.de^*/containertitel/*/*file/$third-party
-||zweitfondsmarkt.de/banner/$third-party
-||züri6.ch/adsman/$third-party
-||züri6.ch/banner/$third-party
 ||1und1.de/?__reuse=$popup,third-party
 ||amateurseite.com^$popup,third-party
 ||bigpoint.com^*?aid=*&aig=*&aip=$popup,third-party
@@ -6361,6 +6327,8 @@ gofeminin.de,kochbar.de#@#a[href^="https://adclick.g.doubleclick.net/"]
 ||amazonaws.com/bnp_657x209_$domain=finanzen.net
 ||amigafuture.de/images/amazon234x60_
 ||amigafuture.de/images/oben/amigastore.png
+||amor-frau.com/frauen-bilder/120x600
+||amor-frau.com/frauen-bilder/728x90
 ||and6.com/images/ixsBanners/
 ||animania.de/wp-content/uploads/*_Wallpaper_
 ||arbeitstage.at/pub_
@@ -7403,6 +7371,9 @@ t-online.de###T-86926496
 t-online.de###Tcontboxi + #Tgboxf
 t-online.de###Tlibelle
 1erforum.de,bauexpertenforum.de,dasheimwerkerforum.de,fitness-foren.de,lpgforum.de,mazda-forum.info,mercedes-forum.com,notebookforum.at,pkw-forum.de,skodacommunity.de,toyota-forum.de,vermieter-forum.com,windows-7-forum.net###TopRectangle
+4crazy.de###UNWB300100
+4crazy.de###UNWB300200
+4crazy.de###UNWB300300
 bbv-net.de,stadtanzeiger-borken.de###WallpaperBanner
 neumarktaktuell.de###Werbung
 ww3.cad.de###WzTtDiV + table[width="100%"][border="0"]
@@ -7491,9 +7462,11 @@ ladies.de###content-solads
 rund-magazin.de###contentbanner
 seorch.de###crazyclownhint
 tagblatt.de###ctl00_ctl00_m_ctrlMainMasterContentPlaceHolder_m_ctrlMainContentPlaceHolder_ctl03_m_ctrlEditContainer
+kriegsberichterstattung.com###custom_html-12
 nh24.de,wiener-online.at###custom_html-2
 daily-pia.de,healthhelp.ch,perbene.ch,windowspower.de###custom_html-3
 primavera24.de###custom_html-5
+kriegsberichterstattung.com###custom_html-9
 wochenblatt.pl###custom_post_widget-6
 wallstreet-online.de###dban1
 bluray-disc.de###deals-aktionen-box
@@ -7552,7 +7525,7 @@ abload.de###layerleft
 abload.de###layerright
 tellows.de###lb_header
 1erforum.de,bauexpertenforum.de,dasheimwerkerforum.de,fitness-foren.de,lpgforum.de,mazda-forum.info,mercedes-forum.com,notebookforum.at,pkw-forum.de,skodacommunity.de,toyota-forum.de,vermieter-forum.com,windows-7-forum.net###leader_top_desk
-skiinfo.ch,skiinfo.com,skiinfo.de,spieletipps.de,videoaktiv.de###leaderboard
+hardwareluxx.de,skiinfo.ch,skiinfo.com,skiinfo.de,spieletipps.de,videoaktiv.de###leaderboard
 nordkurier.de###leaderboard_1
 ebay-kleinanzeigen.de###liberty-vip-middle
 ebay-kleinanzeigen.de###liberty-zsrp-bottom
@@ -7621,6 +7594,7 @@ diebildschirmzeitung.de###rstpl-before-higher-position
 myself.de###sb1Wrapper
 4players.de###schnaeppchenlayer
 fuw.ch###section-sponsored-blogs
+darkpantersclan.de.tl###selfpromotionOverlay
 uhrforum.de###shuffled-sponsored
 madchensex.com###side-spot
 abnehmen.com,aquariumforum.de,auswandererforum.de,pferd.de,radforum.de###sidebar > li > .ffwidget_sidebar
@@ -7629,7 +7603,7 @@ uhrforum.de###sidebar_container
 pinksugar-kessy.de###sidebar_right > #HTML7
 pinksugar-kessy.de###sidebar_right > #HTML9
 finanznachrichten.de###sideteaser
-itmagazine.ch###sky
+hardwareluxx.de,itmagazine.ch###sky
 nextpit.de###sky-left-container
 gamereactor.de###sky2_1
 ad-hoc-news.de###skyL_wrapper
@@ -7864,6 +7838,7 @@ bz-berlin.de##.bcode
 bz-berlin.de##.bcode-top-container
 boersennews.de##.bg-smartbroker-dark
 boersennews.de##.bg-smartbroker-light
+bildercache.de##.bilde-widget
 designtagebuch.de##.billbo
 fnweb.de,laborjournal.de,mannheimer-morgen.de,tarnkappe.info,winfuture.de##.billboard
 infranken.de##.billboard-wrapper
@@ -8124,6 +8099,7 @@ radiobeo.ch##.qf-standard-banner-wrapp
 jamesfm.ch##.qt-sponsor
 codecheck.info##.r
 videoaktiv.de##.rec
+amor-frau.com##.rechteseite
 jobscout24.ch##.recommendations
 games.ch##.rect
 anisearch.de##.rect_sidebar
@@ -8291,6 +8267,7 @@ herthabsc.de##a[href^="/de/hertha/sponsoren/exklusiv-partner/uebersicht/page/"]
 bastel-elfe.de##a[href^="banners.php?"]
 zensiert.net##a[href^="http://camgirly.net"]
 t-online.de##a[href^="http://count.shopping.t-online.de/RE?ID="]
+amor-frau.com##a[href^="http://cpm.amateurcommunity.de/"]
 blockbuster.to,goldesel.sx,laden.to,saugen.to##a[href^="http://filestore.to/premium"]
 finanzen.net##a[href^="http://g.finanzen.net/hsbc-startseite-top-flop?id="]
 erogeschichten.com##a[href^="http://in.mydirtyhobby.com/track/"]
@@ -8318,6 +8295,7 @@ ligaportal.at##a[href^="https://de.johnnybet.com/"]
 pornotim.com,reiseziele.ch,xhamsterde.com##a[href^="https://goo.gl/"]
 hoerbuch.us##a[href^="https://hoerbuch.us/dll/"]
 hoerbuch.us##a[href^="https://linksnappy.com/?ref="]
+amor-frau.com##a[href^="https://lp.amateurcommunity.com/"]
 4fuckr.com##a[href^="https://lp.mydirtyhobby.com/"]
 pcwelt.de##a[href^="https://ndirect.ppro.de/"]
 pcwelt.de##a[href^="https://pvn.mediamarkt.de/"]

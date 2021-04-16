@@ -1,8 +1,8 @@
 !
-! Checksum: pJiaOMNg9RiY/ZI/CSY66Q
-! OriginalVersion: 202104071101
+! Checksum: LnhN5XrAlzxqNUd3o3Kmpw
+! OriginalVersion: 202104160801
 ! Title: EasyList Spanish
-! Last modified: 07 Apr 2021 11:01 UTC
+! Last modified: 16 Apr 2021 08:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -490,6 +490,19 @@ xunta.gal#@#div[id^="anuncio"]
 ||soawhoaw.com^$third-party
 ||qbgrlltue.com^$third-party
 ||ctromgvroh.com^$third-party
+||sqnwmwnwok.com^$third-party
+||ndroip.com^$third-party
+||encouragementstringsborn.com^$third-party
+||harassinganticipation.com^$third-party
+||sippansy.com^$third-party
+||haremwhipshook.com^$third-party
+||thompaur.com^$third-party
+||syrvqblsaqcfmt.com^$third-party
+||yepteaswont.com^$third-party
+||kindnessmarshalping.com^$third-party
+||husktheoretical.com^$third-party
+||sobatsizniy.com^$third-party
+||qzfrmewdbzkcsf.com^$third-party
 ! *** easylistspanish:easylistspanish/easylistspanish_adservers_popup.txt ***
 ||acortar.net^$popup,third-party
 ||authorne.info^$popup,third-party
@@ -540,6 +553,7 @@ xunta.gal#@#div[id^="anuncio"]
 ||putstairboor.com^$third-party
 ||significantlyentering.com^$popup,third-party
 ||rainingvital.com^$popup,third-party
+||dlxrlc2ni2.com^$popup,third-party
 ! *** easylistspanish:easylistspanish_adult/adult_adservers.txt ***
 broced.co^$third-party
 ||cosmeticsgenerosity.com^$third-party
@@ -562,6 +576,7 @@ broced.co^$popup,third-party
 ||boostcpm.su/boost*$third-party
 ||allguiderecipes.info^$subdocument,third-party
 ||n.gameads.io^$third-party
+||jsc.adgage.es^$third-party
 ! *** easylistspanish:easylistspanish/easylistspanish_thirdparty_popup.txt ***
 ||goo.gl^$popup,third-party,domain=zonatorrent.es
 ||deliver.vkcdnservice.com^$popup,third-party
@@ -1151,6 +1166,10 @@ $third-party,xmlhttprequest,domain=animeflv.net|descargasnsn.com|divxatope.com|d
 ||diarioresponsable.com/images/triodos_2019-06.jpg
 ||diarioresponsable.com/images/banners
 ||vertelenovelasonline.com/wp-content/uploads/*/Untitled-design-*.gif
+||verepeliculas.com/dowload/MusicaBANNER.gif^
+||heybros.shop/wp-content/uploads/*/heybros.gif^$domain=simpsons-latino.club
+||daybooktravel.com/banner*.js^$domain=pelispop.com
+||shellshock.io/img/promo/
 ! Anti-Adblock
 ||epasatiempos.es/js/af.js
 ||epasatiempos.es/js/dab.js
@@ -1191,9 +1210,12 @@ $popup,third-party,domain=divxtotal.co|mejortorrentt.net|yourupload.com|embedsit
 ||waaw.*/out.php^$popup
 ||pctreload1.com/pctn/library/content/template/images/logos/pctreload1.png^$popup
 ||foxcdn.me^$popup,domain=telerium.digital
+||foxcdn.live/bjmp*.htm^$popup
+||foxcdn.live/mavenjump.htm^$popup
 ||tontent.p*deo.*/*.hh^$popup
 ||cintent.streanplay.cc^$popup
 /3djuegos_media_v1^$popup,domain=3djuegos.com
+.pro^$popup,domain=strtape.tech
 ! *** easylistspanish:easylistspanish_adult/adult_specific_block.txt ***
 /^https?:\/\/spalumi\.com\/\w+\.[a-z]{3}/$image,domain=spalumi.com
 |http://$script,third-party,domain=mujeres-desnudas.com
@@ -1224,6 +1246,7 @@ $popup,third-party,domain=divxtotal.co|mejortorrentt.net|yourupload.com|embedsit
 ||pornoplay.online/tarot*.webp
 ||mundosexanuncio.com/img_es/banners/
 ||pinklabel.com/tools/live-banners^$subdocument,domain=poringa.net
+||blogspot.com/-*/BNO-300x250.gif^$domain=erospanish.com
 ! *** easylistspanish:easylistspanish_adult/adult_specific_block_popup.txt ***
 !------------------------Specific element hiding rules------------------------!
 ! *** easylistspanish:easylistspanish/easylistspanish_specific_hide.txt ***
@@ -2092,7 +2115,7 @@ moracontenidos.com##.bc_random_banner
 profesionalreview.com##.stream-item
 profesionalreview.com,cadenaoh.com.ar##.widget-ad-image
 educaplay.com##.anuncioAlt
-animefenix.com###radioisekai
+animefenix.com###csgoempire
 seriesturcas.gratis##.ver-ahora
 portalfruticola.com##div[class*="banner-set"]
 minovelasubtitulada.com##a[href*="bestrevenuenetwork.com"]
@@ -2158,6 +2181,12 @@ hoyaragon.es##.addg
 agma.io###advertDialog1
 todomercadoweb.es##div[style="height:270px; padding: 10px 0;"]
 diarioresponsable.com##.banneritem
+highstream.tv##.cover
+verepeliculas.com##div[class^="ano_"]
+rainanime.co,verepeliculas.com##.fake_player
+sport.es##.sp-add
+coches.net##.mt-AdvertisingRoadblock-top
+revistagmgastronomia.com###rev_slider_1_1_wrapper
 ! Site Specific filters (used with $generichide)
 eleconomista.es##a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"]
 ! Anti-Adblock
@@ -2174,7 +2203,6 @@ cliver.to##div[data-name="parent-element"]
 kairosweb.com##div[class*="banner-"]
 kairosweb.com##.spu-bg
 kairosweb.com##.spu-box
-rainanime.co##.fake_player
 ! *** easylistspanish:easylistspanish_adult/adult_specific_hide.txt ***
 teatroporno.com###a-insd
 vercomicsporno.com###afi

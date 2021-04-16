@@ -1,9 +1,9 @@
 !
-! Checksum: ip9M+72E+Vcapndt97pb6w
-! OriginalVersion: 202104071052
+! Checksum: 4lm7XbcO9Je53y7uEy+SSg
+! OriginalVersion: 202104160752
 ! Title: EasyList Dutch
 ! Description: Dutch supplement for the Easylist filters
-! Last modified: 07 Apr 2021 10:52 UTC
+! Last modified: 16 Apr 2021 07:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
